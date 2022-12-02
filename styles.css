@@ -1,0 +1,118 @@
+*{
+    all: unset; /*Fjerne all user agent stylesheet*/
+    display: revert; /*Den aktiverer display funktionen i user agent stylesheet*/
+    box-sizing: border-box; /*Bredde på et element er inklusiv padding og border*/
+    font-family: "futura-pt",sans-serif;
+}
+
+/* utility classes */
+
+.background-green{
+    background-color: #50982230;
+}
+.background-white{
+    background-color: #FBFCF9;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-whitespace{
+    max-width: 1364px;
+    margin: auto;
+}
+/* utility classes slut */
+
+
+section{
+    padding: 4rem 0;
+}
+
+
+/* fonts */
+
+h1{
+    font-size: 2.75rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2{
+    font-weight: 500;
+    font-style: normal;
+}
+
+h3{
+
+}
+
+.hero-text{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* fonts slut */
+
+
+
+/* header */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.header-logo{
+    height: 58px;
+    margin-top: 20px;
+}
+
+ul{
+    gap: 30px;
+}
+
+li{
+    cursor: pointer;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+/* header slut */
+
+
+.frontpage-test-image{
+    height: 500px;
+}
+
+.flex-hero{
+    justify-content: space-between;
+}
+
+.frontpage-line{
+    height: 5px;
+    width: 460px;
+    background-color: #509822;
+    margin-bottom: 26px;
+}
+
+
+.call-to-action{
+    background-color: #509822;
+    padding: 1rem;
+    width: fit-content;
+    border-radius: 0 20px 0 20px;
+    color: #FBFCF9;
+    font-size: 1.25rem;
+    margin-top: 20px;
+    cursor: pointer;
+}
