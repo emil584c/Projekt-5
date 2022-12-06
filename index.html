@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,15 +11,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/afp0tgt.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <script src="javascript/scripts.js" defer></script>
     <script src="https://kit.fontawesome.com/1e8b3aab75.js" crossorigin="anonymous"></script>
 </head>
 <body class="background-white">
     <header class="main-whitespace">
         <div class="b2b">
+            <p>DK/ENG</p>
             <div class="search">
                 <input class="search-input" type="text" placeholder="søgnings">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                <span class="material-symbols-outlined">
+                    search
+                    </span>
                 </input>
             </div>
             <button class="kontakt">
@@ -32,9 +36,9 @@
                     <li><a href="#">Forside</a></li>
                     <li><a href="#">Teknologien</a></li>
                     <li><a href="#">Hvem er vi</a></li>
-                    <li><a href="#">Presse</a></li>
-                    <li><a href="#">Partnere</a></li>
-                    <li><a href="#">Kontakt os</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Omtale</a></li>
+                    <li><a href="#partners">Partnere</a></li>
                 </ul>
             </nav>
     </header>
@@ -46,17 +50,61 @@
                     <h1>Skab fremtiden i dit gartneribrug <br> med vertikalt landbrug</h1>
                     <div class="frontpage-line"></div>
                     <p class="hero-text">Skræddersyede løsninger for hydroponisk vertikalt landbrug, <br>til rum og drivhuse i alle størrelser</p>
-                    <button class="call-to-action">Læs mere om teknologien</button>
+                    <div class="frontpage-buttons">
+                        <button class="call-to-action">Læs mere om teknologien</button>
+                        <button class="call-to-action-2">Kontakt os her</button>
+                    </div>
                 </div>
             <div class="d">
+                <img class="blob" src="images/yessir.png" alt="">
                 <img class="frontpage-test-image" src="images/forside-test-billede.png" alt="">
-                <img src="images/" alt="">
+                
             </div>
+            </div>
+        </section>
+
+        <section class="background-green">
+                <h2 class="text-center">Fordele for dig som gartner</h2>
+                <div class="title-line"></div>
+            <div class="flex-row flex-fordele main-whitespace">
+                <div>
+                    <img src="images/vertical-system.png" alt="">
+                </div>
+                <div>
+                    <ul class="benefits">
+                        <li class="benefit-single"><img src="images/leaf-icon.png" alt="leaf icon"> <p>Vertikalt landbrug erstatter ikke traditionelt landbrug</p></li>
+                        <li class="benefit-single"><img src="images/leaf-icon.png" alt="leaf icon"> <p>Ingen udledning af pesticider og gødning</p></li>
+                        <li class="benefit-single"><img src="images/leaf-icon.png" alt="leaf icon"> <p>Effektiv og kontrolleret produktion</p></li>
+                        <li class="benefit-single"><img src="images/leaf-icon.png" alt="leaf icon"> <p>Højere fortjeneste pr. plante pga. nedsatte produktionsomkostninger :)</p></li>
+                        <li class="benefit-single"><img src="images/leaf-icon.png" alt="leaf icon"> <p>Simpel betjening - nemt for sæsonarbejdere at bruge</p></li>
+                        <li class="benefit-single"><img src="images/leaf-icon.png" alt="leaf icon"> <p>Kontrolleret dyrkning giver konsistent kvalitet</p></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="background-white">
+            <div class="flex-row flex-statement main-whitespace">
+                
+                    <div class="statement-text">
+                        <p>“Kontakt mig for en afklaring af, hvordan vores systemer kan gavne dig og dit gartneri”</p>
+                        <div class="statement-line"></div>
+                    </div>
+                    <img src="images/statement-iris.png" alt="picture of Iris - CEO">
+                    <div>
+                
+                    <ul class="statement-personal-info">
+                        <li class="statement-personal-info-single">Iris M. Madsen - CEO</li>
+                        <li class="statement-personal-info-single">12 34 56 78</li>
+                        <li class="statement-personal-info-single">im@hydrovertic.com</li>
+                    </ul>
+                
+                </div>
             </div>
         </section>
           
         <section class="background-green text-center">
-            <h2>Hvorfor Hydroponi?</h2>
+            <h2>Hvorfor Hydroponi</h2>
             <div class="title-line"></div>
             <div class="flex-row frontpage-hydroponi main-whitespace">
                 <div class="hydroponi-box">
@@ -89,6 +137,131 @@
                 
             </div>
 
+        </section>
+
+        <section class="background-white">
+            <div class="flex-row flex-statement main-whitespace">
+                
+                    <ul class="statement-personal-info">
+                        <li class="statement-personal-info-single">Jacob Høj Copeland - CTO</li>
+                        <li class="statement-personal-info-single">12 34 56 78</li>
+                        <li class="statement-personal-info-single">jc@hydrovertic.com</li>
+                    </ul>
+                    
+                    <img src="images/statement-jacob.png" alt="picture of Iris - CEO">
+                    <div>
+                
+                <div class="statement-text">
+                    <p>“Vi vil gøre det nemt at implementere vertikalt landbrug i eksisterende logistik”</p>
+                    <div class="statement-line"></div>
+                </div>
+                
+                </div>
+            </div>
+        </section>
+
+        <section class="background-green">
+            <h2 class="text-center">Nyheder</h2>
+            <div class="title-line"></div>
+            <div class="flex-row news-flex main-whitespace">
+                <div class="news-card">
+                    <div class="flex-news-card">
+                        <p class="news-title">Fremtiden er vertikal landbrug</p>
+                        <p class="news-date">08/10/21</p>
+                        <p class="news-text">"Prototypen er klar til at blive testet. - Vertical farming-begrebet har generelt fået stor opmærksomhed, og det har vi også mærket, siger direktør Rudy Mandrup Cazelles..."</p>
+                        <div class="news-bottom-row">
+                            <img src="images/erhverv+.png" alt="">
+                            <a class="news-read-more" href="#">Læs mere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="flex-news-card">
+                        <p class="news-title">Fremtiden er vertikal landbrug</p>
+                        <p class="news-date">08/10/21</p>
+                        <p class="news-text">"Prototypen er klar til at blive testet. - Vertical farming-begrebet har generelt fået stor opmærksomhed, og det har vi også mærket, siger direktør Rudy Mandrup Cazelles..."</p>
+                        <div class="news-bottom-row">
+                            <img src="images/erhverv+.png" alt="">
+                            <a class="news-read-more" href="#">Læs mere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="flex-news-card">
+                        <p class="news-title">Fremtiden er vertikal landbrug</p>
+                        <p class="news-date">08/10/21</p>
+                        <p class="news-text">"Prototypen er klar til at blive testet. - Vertical farming-begrebet har generelt fået stor opmærksomhed, og det har vi også mærket, siger direktør Rudy Mandrup Cazelles..."</p>
+                        <div class="news-bottom-row">
+                            <img src="images/erhverv+.png" alt="">
+                            <a class="news-read-more" href="#">Læs mere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="partners" class="background-white">
+            <div class="flex-row flex-partners main-whitespace">
+                <a href="">
+                    <div class="partner-card">
+                        <img class="partner-image" src="images/partners/VC_main_logo.png" alt="">
+                        <div class="">
+                            <p class="partner-name">National Startup Competition</p>
+                            <p class="partner-text">Winner of the product category in venture cup 2022.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="partner-card">
+                        <img class="partner-image" src="images/partners/Futurebox.jpg" alt="">
+                        <p class="partner-name">GreenUp</p>
+                        <p class="partner-text">Part of the leading green accelarator in DK</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="partner-card">
+                        <img class="partner-image" src="images/partners/Dell logo.png" alt="">
+                        <p class="partner-name text-center">Dell Technologies</p>
+                        <p class="partner-text">Del af Dell Danmarks startup accelarator, for tech virksomheder med female founders.</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="partner-card">
+                        <img class="partner-image" src="images/partners/odense-robotics.png" alt="">
+                        <p class="partner-name">Odense Robotics</p>
+                        <p class="partner-text">Medlem af Odense Robotics industry cluster</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="partner-card">
+                        <img class="partner-image" src="images/partners/intech.png" alt="">
+                        <p class="partner-name">InTech Founders</p>
+                        <p class="partner-text">En del af Intech Founders 2022</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="partner-card">
+                        <img class="partner-image" src="images/partners/Clean.png" alt="">
+                        <p class="partner-name">Cleantech Impact Accelarator (CIA)</p>
+                        <p class="partner-text">En del af Cleantech Impact Accelarator 2022</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="partner-card">
+                        <img class="partner-image" src="images/partners/SDG_LOGO-BLACK-new.png" alt="">
+                        <p class="partner-name">Sustaniary SDG Tech Awards</p>
+                        <p class="partner-text">Finalister til Sustaniary SDG Tech Awards 2021</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="partner-card">
+                        <img class="partner-image" src="images/partners/AA_logo_RGB_pos@2x.png" alt="">
+                        <p class="partner-name">Beyond Beta</p>
+                        <p class="partner-text">Har deltaget i Beyond Beta Batch #3</p>
+                    </div>
+                </a>
+                
+            </div>
         </section>
     </main>
 
