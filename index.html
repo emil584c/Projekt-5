@@ -12,20 +12,31 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/afp0tgt.css">
     <script src="javascript/scripts.js" defer></script>
+    <script src="https://kit.fontawesome.com/1e8b3aab75.js" crossorigin="anonymous"></script>
 </head>
 <body class="background-white">
-    <header>
-        <a href="#"><img class="header-logo" src="images/hydrovertic-logo.svg" alt="hydrovertics grønne logo"></a>
-        <nav>
-            <ul class="flex-row">
-                <li><a href="#">Forside</a></li>
-                <li><a href="#">Teknologien</a></li>
-                <li><a href="#">Hvem er vi?</a></li>
-                <li><a href="#">Presse</a></li>
-                <li><a href="#">Partnere</a></li>
-                <li><a href="#">Kontakt os</a></li>
-            </ul>
-        </nav>
+    <header class="main-whitespace">
+        <div class="b2b">
+            <div class="search">
+                <input class="search-input" type="text" placeholder="søgnings">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </input>
+            </div>
+            <button class="kontakt">
+                Kontakt
+            </button>
+        </div>
+            <nav>
+             <a href="#"><img class="header-logo" src="images/hydrovertic-logo.svg" alt="hydrovertics grønne logo"></a>
+                <ul class="flex-row">
+                    <li><a href="#">Forside</a></li>
+                    <li><a href="#">Teknologien</a></li>
+                    <li><a href="#">Hvem er vi</a></li>
+                    <li><a href="#">Presse</a></li>
+                    <li><a href="#">Partnere</a></li>
+                    <li><a href="#">Kontakt os</a></li>
+                </ul>
+            </nav>
     </header>
 
     <main>
@@ -40,7 +51,7 @@
             <img class="frontpage-test-image" src="images/forside-test-billede.png" alt="">
             </div>
         </section>
-
+          
         <section class="background-green text-center">
             <h2>Hvorfor Hydroponi?</h2>
             <div class="title-line"></div>
@@ -61,14 +72,20 @@
                 <div class="hydroponi-box">
                     <p>Ingen sprøjtemidler</p>
                 </div>
-                <div id="yes" class="hydroponi-box folde">
-                    <img src="images/nature.png" alt="">
-                    <p>Ingen sprøjtemidler</p>
-                    <div id="more">
-                        <p>61% af Danmarks areal er landbrug, hvilket resultere i skovrydninger og tab af biodiversitet.Læs mere om problemerne her og her.<br>Hydroponi er 11 gange mere effektivt end traditionelt landbrug og bruger derfor mindre plads pr. afgrød.<br>Læs mere om forskellene her.</p>
+                <div class="flex-column">
+                    <div id="yes" class="hydroponi-box folde">
+                        <img src="images/nature.png" alt="">
+                        <p>Ingen sprøjtemidler</p>
+                    </div>
+                    <div id="hydroponiBox2">
+                        <div id="more">
+                            <p>61% af Danmarks areal er landbrug, hvilket resultere i skovrydninger og tab af biodiversitet.<br><br>Hydroponi er 11 gange mere effektivt end traditionelt landbrug og bruger derfor mindre plads pr. afgrød.<br>Læs mere om forskellene her.</p>
+                        </div>
                     </div>
                 </div>
+                
             </div>
+
         </section>
     </main>
 
