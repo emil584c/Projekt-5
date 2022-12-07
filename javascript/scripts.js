@@ -24,7 +24,6 @@ let infoBox = document.getElementById("info-box")
 
 // tilmeld afmeld
 const hydroponiBox = document.querySelectorAll(".hydroponi-box");
-const hiddenText = document.getElementsByClassName("hidden-text");
 
 
 
@@ -36,8 +35,7 @@ let values = Array.prototype.map.call(hydroponiBox, function(el) {
 values.forEach(buttonText => {
     buttonText.addEventListener('click', function handleClick(event) {
         infoBox.style.height ="250px";
-        mainText.style.display ="none";
-        hiddenText.style.opacity = "100%";
+        mainText.style.display ="none"; 
     });
 });
 
