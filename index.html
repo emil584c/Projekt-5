@@ -55,10 +55,9 @@
                         <button class="call-to-action-2">Kontakt os her</button>
                     </div>
                 </div>
-            <div class="d">
+            <div class="video-blob">
                 <img class="blob" src="images/yessir.png" alt="">
                 <img class="frontpage-test-image" src="images/forside-test-billede.png" alt="">
-                
             </div>
             </div>
         </section>
@@ -106,40 +105,42 @@
         <section class="background-green text-center">
             <h2 >Hvorfor Hydroponi</h2>
             <div class="title-line"></div>
+
             <div class="flex-row frontpage-hydroponi main-whitespace">
-                <div class="hydroponi-box">
+                <div onclick="filterSelection('sprojtemidler')" class="hydroponi-box">
+                    <img class="hydroponi-illustration" src="images/sprojtemidler.svg" alt="">
                     <p>Ingen sprøjtemidler</p>
                 </div>
-                <div class="hydroponi-box">
-                    <p>Ingen sprøjtemidler</p>
+                <div onclick="filterSelection('forurening')" class="hydroponi-box">
+                    <img class="hydroponi-illustration" src="images/forurening.svg" alt="">
+                    <p>Mindre forurening</p>
                 </div>
-                <div class="hydroponi-box">
-                    <img src="images/nature.png" alt="">
-                    <p>Ingen sprøjtemidler</p>
-                    <div class="content">
-                        <!-- <p>61% af Danmarks areal er landbrug, hvilket resultere i skovrydninger og tab af biodiversitet.Læs mere om problemerne her og her.<br>Hydroponi er 11 gange mere effektivt end traditionelt landbrug og bruger derfor mindre plads pr. afgrød.<br>Læs mere om forskellene her.</p> -->
-                    </div>
+                <div onclick="filterSelection('naturen')" class="hydroponi-box">
+                    <img class="hydroponi-illustration" src="images/naturen.svg" alt="">
+                    <p>Bevarer naturen</p>
                 </div>
-                <div class="hydroponi-box">
-                    <p>Ingen sprøjtemidler</p>
+                <div onclick="filterSelection('import')" class="hydroponi-box">
+                    <img class="hydroponi-illustration" src="images/import.svg" alt="">
+                    <p>Mindre import</p>
                 </div>
-                <div class="flex-column">
+                <div onclick="filterSelection('vand')" class="flex-column">
                     <div id="yes" class="hydroponi-box folde">
-                        <img src="images/nature.png" alt="">
-                        <p>Ingen sprøjtemidler</p>
-                    </div>
-                    <div id="hydroponiBox2">
-                        <div id="more">
-                            <p>61% af Danmarks areal er landbrug, hvilket resultere i skovrydninger og tab af biodiversitet.<br><br>Hydroponi er 11 gange mere effektivt end traditionelt landbrug og bruger derfor mindre plads pr. afgrød.<br>Læs mere om forskellene her.</p>
-                        </div>
+                        <img class="hydroponi-illustration" src="images/water.svg" alt="">
+                        <p>Mindre vand</p>
                     </div>
                 </div>
                 
             </div>
             <div id="info-box"> 
                 <p id="info-main-text">Tryk på de individuelle kasser for at læse mere om de enkelte gutter</p>
-                <p id="info-box-1" class="info-box-text">61% af Danmarks areal er landbrug, hvilket resultere i skovrydninger og tab af biodiversitet.<br><br>Hydroponi er 11 gange mere effektivt end traditionelt landbrug og bruger derfor mindre plads pr. afgrød.<br>Læs mere om forskellene her.</p>
-                <p id="info-box-2" class="info-box-text"></p>
+                <p class="hidden-text filterDiv sprojtemidler">Globalt går op til 20-40% af afgrøder tabt på grund af skadedyr og sygdomme. Læs mere om problemet her. Af samme grund, bruger traditionelt landbrug ofte kemi til at sikre eller rede inficerede grøntsager. Langt de fleste sygdomme og skadedyr er relateret til brugen af jord. Når man dyrker i vand, er der derfor markant færre trusler og dermed er der ikke er behov for pesticider og andre kemikalerier.</p>
+                <p class="hidden-text filterDiv forurening">Landbruget udleder store mængder gødning til søer, vandløb og have. Når gødningen opløses i vandet, bliver den til næring for alger, der danner store opblomstringer kaldet eutrofiering, hvilket har en langt række konsekvenser for vores økosystemer. Læs mere om problemet her. Med hydroponi dyrkes der i lukkede systemer, hvor alt næring der tilføres optages. Hydroponi nedsætter dermed udslippet med 100%.</p>
+                <p class="hidden-text filterDiv naturen">61% af Danmarks areal er landbrug, hvilket resultere i skovrydninger og tab af biodiversitet.Hydroponi er 11 gange mere effektivt end traditionelt landbrug og bruger derfor mindre plads pr. afgrød.<br>Læs mere om forskellene her.</p>
+                <p class="hidden-text filterDiv import">Hvert år impoteres mere end 15 milioner kg. grøntsager til danmark, hvilket er forbundet med en endnu højere Co2 belastning. Læs mere om hvorfor det er vigtigt at spise lokalt mad her. Med hydroponisk dyrkning, kan man dyrke grønt hele året og dermed altid få lokale grøntsager.</p>
+                <p class="hidden-text filterDiv vand"> Landbruget er ansvarlig for 70% af vores globale vand forbrug. Læs mere om problemet her. Hydroponi bruger 92% mindre vand end traditionelt landbrug. Selvom teknologien endnu ikke kan bruges på alle typer afgrødre, er det en forskel der kan mærkes.</p>
+
+                <!-- <p id="info-box-1" class="info-box-text">61% af Danmarks areal er landbrug, hvilket resultere i skovrydninger og tab af biodiversitet.<br><br>Hydroponi er 11 gange mere effektivt end traditionelt landbrug og bruger derfor mindre plads pr. afgrød.<br>Læs mere om forskellene her.</p> -->
+                
                 <p class="info-box-text"></p>
                 <p></p>
                 <p></p>
