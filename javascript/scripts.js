@@ -23,19 +23,26 @@ let infoBox = document.getElementById("info-box")
 
 
 // tilmeld afmeld
-const tilmeldKnap = document.querySelectorAll(".hydroponi-box");
+const hydroponiBox = document.querySelectorAll(".hydroponi-box");
+const hiddenText = document.getElementsByClassName("hidden-text");
 
 
-let values = Array.prototype.map.call(tilmeldKnap, function(el) {
+
+let values = Array.prototype.map.call(hydroponiBox, function(el) {
     return el;
 });
+
 
 values.forEach(buttonText => {
     buttonText.addEventListener('click', function handleClick(event) {
         infoBox.style.height ="250px";
         mainText.style.display ="none";
+        hiddenText.style.opacity = "100%";
     });
 });
+
+
+
 
 var x, i;
 x = document.getElementsByClassName("filterDiv");

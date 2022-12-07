@@ -106,29 +106,29 @@
             <h2 >Hvorfor Hydroponi</h2>
             <div class="title-line"></div>
 
-            <div class="flex-row frontpage-hydroponi main-whitespace">
-                <div onclick="filterSelection('sprojtemidler')" class="hydroponi-box">
+            <div id="scrollmenu" class="flex-row frontpage-hydroponi main-whitespace">
+                <div class="active"></div>
+                <div onclick="filterSelection('sprojtemidler')" class="hydroponi-box btn">
                     <img class="hydroponi-illustration" src="images/sprojtemidler.svg" alt="">
                     <p>Ingen sprøjtemidler</p>
                 </div>
-                <div onclick="filterSelection('forurening')" class="hydroponi-box">
+                <div onclick="filterSelection('forurening')" class="hydroponi-box btn">
                     <img class="hydroponi-illustration" src="images/forurening.svg" alt="">
                     <p>Mindre forurening</p>
                 </div>
-                <div onclick="filterSelection('naturen')" class="hydroponi-box">
+                <div onclick="filterSelection('naturen')" class="hydroponi-box btn">
                     <img class="hydroponi-illustration" src="images/naturen.svg" alt="">
                     <p>Bevarer naturen</p>
                 </div>
-                <div onclick="filterSelection('import')" class="hydroponi-box">
+                <div onclick="filterSelection('import')" class="hydroponi-box btn">
                     <img class="hydroponi-illustration" src="images/import.svg" alt="">
                     <p>Mindre import</p>
                 </div>
-                <div onclick="filterSelection('vand')" class="flex-column">
-                    <div id="yes" class="hydroponi-box folde">
-                        <img class="hydroponi-illustration" src="images/water.svg" alt="">
-                        <p>Mindre vand</p>
-                    </div>
+                <div onclick="filterSelection('vand')" class="hydroponi-box btn">
+                    <img class="hydroponi-illustration" src="images/water.svg" alt="">
+                    <p>Mindre vand</p>
                 </div>
+                
                 
             </div>
             <div id="info-box"> 
@@ -276,31 +276,59 @@
         </section>
     </main>
 
-    <footer>
-        <div class="footer-row-1">
+    <footer class="background-green">
+        <div class="footer-row flex-row">
             <ul class="footer-list">
-                <p>Teknologien</p>
-                <li class="footer-list-item"><a href="">FAQ</a></li>
-                <li class="footer-list-item"><a href="">Privatlivspolitik</a></li>
-                <li class="footer-list-item"><a href="">Hvem er vi</a></li>
-                <li class="footer-list-item"><a href="">Teknologien</a></li>
+                <li class="footer-h2-text">Teknologien</li>
+                <li class="footer-list-item paragraph"><a href="">FAQ</a></li>
+                <li class="footer-list-item paragraph"><a href="">Privatlivspolitik</a></li>
+                <li class="footer-list-item paragraph"><a href="">Hvem er vi</a></li>
+                <li class="footer-list-item paragraph"><a href="">Teknologien</a></li>
             </ul>
-            <ul class="footer-list">
-                <p>Genveje</p>
-                <li class="footer-list-item"><a href="">Søg</a></li>
-                <li class="footer-list-item"><a href="">Kontakt os</a></li>
-                <li class="footer-list-item"><a href="">Forside</a></li>
-                <li class="footer-list-item"><a href="">Omtale</a></li>
-                <li class="footer-list-item"><a href="">Partnere</a></li>
 
+            <ul class="footer-list">
+                <li class="footer-h2-text">Genveje</li>
+                <li class="footer-list-item paragraph"><a href="">Søg</a></li>
+                <li class="footer-list-item paragraph"><a href="">Kontakt os</a></li>
+                <li class="footer-list-item paragraph"><a href="">Forside</a></li>
+                <li class="footer-list-item paragraph"><a href="">Omtale</a></li>
+                <li class="footer-list-item paragraph"><a href="">Partnere</a></li>
             </ul>
-            <ul class="footer-list">
 
+            <ul class="footer-list">
+                <li class="footer-h2-text">Her finder du os</li>
+                <li class="paragraph-light">Hydrovertic ApS<br>CVR: 41983337</li>
+                <li class="paragraph-light">Cortex Park 26<br>5230 Odense M, DK</li>
+                <li class="paragraph-light">Rudmevej 101<br>5750 Ringe, DK</li>
             </ul>
-            <ul class="footer-list">
 
+            <ul class="footer-list">
+                <li class="footer-h2-text">Kontakt os her</li>
+                <li class="paragraph-light">contact@hydrovertic.com<br>12 34 56 78</li>
+                <li>
+                    <div class="flex-column">
+                            <p class="footer-h2-text">Følg med her</p>
+                        <div class="flex-row">
+                            icon icon icon
+                        </div>
+                    </div>
+                </li>
             </ul>
         </div>
+        <div class="footer-row">
+            <div class="flex-column">
+                <p class="paragraph-mini"> Development of the Hydrovertic System is supported by</p>
+                <div class="flex-row eur-flex">
+                    <img src="images/leader.png" alt="">
+                    <img src="images/eur.png" alt="">
+                    <p class="paragraph-mini">Den Europæiske Landbrugsfond<br>
+                        for Udvikling af Landdistrikterne:<br>
+                        Europa investerer i landdistrikterne</p>
+                </div>
+            </div>
+            <img src="images/hydrovertic-black.svg" alt="">
+        </div>
+        <p class="paragraph text-center copyright">© 2020-2022 Hydrovertic. All rights reserved.</p>
     </footer>    
 </body>
 </html>

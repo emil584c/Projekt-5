@@ -75,6 +75,22 @@ h3{
     max-width: 500px;
 }
 
+
+.paragraph{
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.paragraph-light{
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+.paragraph-mini{
+    font-weight: 400;
+    font-size: 12px;
+}
+
 /* fonts slut */
 
 
@@ -265,6 +281,14 @@ nav{
     font-weight: 500;
     cursor: pointer;
     transition: 0.2s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
 }
 
 .hydroponi-illustration{
@@ -272,10 +296,44 @@ nav{
 }
 
 
-.hydroponi-box:active{
+/* .hydroponi-box:active{
     height: 250px;
     width: 250px;
+} */
+
+@keyframes swing {
+    15% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    30% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    50% {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    65% {
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+    80% {
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
 }
+
+.hydroponi-box:hover {
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
 
 
 
@@ -494,10 +552,34 @@ nav{
 .footer-list{
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
 }
 
-.footer-list-item{
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+    max-width: 904px;
+    margin: auto;
+    padding: 2rem 0 1rem 0;
+}
 
+
+footer{
+    list-style: none;
+}
+
+.footer-h2-text{
+    font-size: 1.25;
+    font-weight: 500;
+}
+
+.eur-flex{
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.copyright{
+    padding-bottom: 2rem;
 }
 
 
@@ -529,6 +611,10 @@ nav{
 
 .filterDiv{
     display: none;
+    font-size: 1.125;
+    font-weight: 400;
+    line-height: 160%;
+    transition: 1s;
 }
 
 
@@ -537,10 +623,9 @@ nav{
   }
 
 
-  .hidden-text{
-    font-size: 1.125;
-    font-weight: 400;
-    line-height: 160%;
+
+.btn.active{
+    background-color: red;
 }
 
 
