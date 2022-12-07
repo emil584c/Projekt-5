@@ -84,6 +84,7 @@ h3{
 .paragraph-light{
     font-size: 1.125rem;
     font-weight: 300;
+    cursor: auto;
 }
 
 .paragraph-mini{
@@ -571,6 +572,7 @@ footer{
 .footer-h2-text{
     font-size: 1.25;
     font-weight: 500;
+    cursor: auto;
 }
 
 .eur-flex{
