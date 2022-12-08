@@ -79,6 +79,7 @@ h3{
 .paragraph{
     font-size: 1.125rem;
     font-weight: 400;
+    max-width: 646px;
 }
 
 .paragraph-light{
@@ -321,7 +322,7 @@ nav{
     }
     80% {
         -webkit-transform: translateY(2px);
-        transform: translateY(2px);
+        transform: translateY(2px); 
     }
     100% {
         -webkit-transform: translateY(0);
@@ -331,7 +332,7 @@ nav{
 
 .hydroponi-box:hover {
     -webkit-animation: swing 1s ease;
-    animation: swing 1s ease;
+    animation: swing 1.5s ease;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
   }
@@ -631,6 +632,35 @@ footer{
 }
 
 
+.teknologi-video-placeholder{
+    height: 500px;
+    width: 100%;
+    margin: 1.5rem auto auto auto;
+}
+
+.video{
+    height: 100%;
+    width: 100%;
+}
 
 
+.teknologi-info-section.paragraph{
+    max-width: 535px;
+}
 
+.info-section-flex{
+    gap: 2rem;
+}
+
+.software-list-flex{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+.teknologi-info-flex{
+    justify-content: space-between;
+    align-items: center;
+}
