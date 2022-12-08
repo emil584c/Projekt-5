@@ -229,38 +229,45 @@ nav{
     background-color: #509822;
     margin-bottom: 26px;
     margin: auto;
-    margin: 12px auto 30px auto;
+    margin: 8px auto 30px auto;
+}
+
+.title-line.hydroponi{
+    margin-bottom: 0.5rem;
+}
+
+.paragraph-light.hydroponi{
+    margin-bottom: 1rem;
 }
 
 
 .call-to-action{
     background-color: #509822;
-    padding: 1rem;
+    padding: 0.6rem 0.8rem;
     width: fit-content;
     border-radius: 0 20px 0 20px;
     color: #FBFCF9;
     font-size: 1.25rem;
     margin-top: 20px;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.3s;
 }
 
-.call-to-action:hover{
-    border-radius: 20px 0 20px 0;
-    background-color: #486626;
+.call-to-action:hover,.call-to-action-2:hover{
+    background-color: #44821C;
 
 }
 
 .call-to-action-2{
     background-color: #509822;
-    padding: 1rem;
+    padding: 0.6rem 0.8rem;
     width: fit-content;
     border-radius: 20px 0 20px 0;
     color: #FBFCF9;
     font-size: 1.25rem;
     margin-top: 20px;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.3s;
 }
 
 
@@ -608,10 +615,6 @@ footer{
     transition-delay: 600ms;
 }
 
-
-
-
-
 .filterDiv{
     display: none;
     font-size: 1.125;
@@ -620,12 +623,9 @@ footer{
     transition: 1s;
 }
 
-
 .show {
     display: block;
   }
-
-
 
 .btn.active{
     background-color: red;
