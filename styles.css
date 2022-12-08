@@ -76,6 +76,10 @@ h3{
     max-width: 500px;
 }
 
+.paragraph-thick{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
 
 .paragraph{
     font-size: 1.125rem;
@@ -707,4 +711,125 @@ footer{
 
 .tek-kontakt-span{
     font-weight: 400;
+}
+
+
+.who-are-we{
+    gap: 1rem;
+}
+
+.who-are-we-flex{
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.who-are-we-title{
+    max-width: 250px;
+    text-align: right;
+}
+
+.who-are-we-title2{
+    max-width: 250px;
+}
+
+.who-are-we-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 50%;
+    filter: drop-shadow(0px 3px 3px #00000036);
+    cursor: pointer;
+}
+
+.linkedin{
+    justify-content: flex-end;
+    gap: 1.25rem;
+}
+.linkedin2{
+    gap: 1.25rem;
+}
+
+.hydrovertic-section{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hydrovertic-text-section{
+    gap: 1rem;
+    max-width: 544px;
+}
+
+
+.journey-card{
+    filter: drop-shadow(0px 3px 3px #00000036);
+    background-color: #FBFCF9;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 136px;
+    width: 200px;
+}
+
+.middle-journey-card{
+    filter: drop-shadow(0px 3px 3px #00000036);
+    background-color: #FBFCF9;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #509822;
+    height: 244px;
+    width: 296px;
+}
+
+.green-pill{
+    color: #FBFCF9;
+    background-color: #509822;
+    border-radius: 16px;
+    padding: 4px 11px;
+}
+
+.journey-card-section{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.goals-card{
+    width: 456px;
+    height: 339px;
+    background-color: #FBFCF9;
+    border-radius: 10px;
+    filter: drop-shadow(0px 3px 3px #00000036);
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.goals{
+    justify-content: space-between;
+}
+
+.flex-goals{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.fn-goal-flex{
+    gap: 1.5rem;
+    display: flex;
+}
+
+.paragraph-light.readmore{
+   
 }
