@@ -558,6 +558,15 @@ nav{
     max-width: 300px;
 }
 
+.footer-icons{
+    gap: 1rem;
+}
+
+.footer-icon{
+    height: 24px;
+    border-radius: 2px;
+}
+
 .footer-list{
     display: flex;
     flex-direction: column;
