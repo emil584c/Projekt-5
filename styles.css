@@ -9,7 +9,7 @@
 /* utility classes */
 
 .background-green{
-    background-color: #50982230;
+    background-color: #50982240;
 }
 .background-white{
     background-color: #FBFCF9;
@@ -273,7 +273,7 @@ nav{
     height: 200px;
     width: 200px;
     background-color: #FBFCF9;
-    filter: drop-shadow(0px 3px 10px);
+    filter: drop-shadow(0px 3px 3px #00000036);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -348,10 +348,10 @@ nav{
     background-color: #FBFCF9;
     filter: drop-shadow(0px 3px 10px);
     width: 632px;
-    height: 62px;
+    height: 0px;
     border-radius: 10px;
     transition: 1s ease-out;
-    padding: 2rem;
+    padding: 0rem;
 }
 
 #info-box-1{

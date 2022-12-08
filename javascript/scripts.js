@@ -35,7 +35,8 @@ let values = Array.prototype.map.call(hydroponiBox, function(el) {
 values.forEach(buttonText => {
     buttonText.addEventListener('click', function handleClick(event) {
         infoBox.style.height ="250px";
-        mainText.style.display ="none"; 
+        mainText.style.display ="none";
+        infoBox.style.padding = "2rem"; 
     });
 });
 
