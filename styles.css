@@ -893,8 +893,8 @@ footer{
 
 /* line end */
 
-.paragraph.contact-text{
-    max-width: 500px;
+.paragraph-thick.contact-text{
+    max-width: 550px;
 }
 
 .contact-flex{
@@ -912,6 +912,10 @@ footer{
 .individual-contact{
     align-items: center;
     gap: 0.5rem;
+}
+
+.contact-thick{
+    font-size: 24px;
 }
 
 .email-input{
