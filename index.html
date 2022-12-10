@@ -19,38 +19,62 @@
 <body class="background-white">
     <header class="main-whitespace">
         <div class="b2b">
-            <p>DK/ENG</p>
-            <div class="search">
-                <input class="search-input" type="text" placeholder="søgnings">
+            <p class="language">DK/ENG</p>
+            <div class="mobile-header-flex">
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <a href="index.html"><img class="header-logo-mobile" src="images/hydrovertic-logo.svg" alt="hydrovertics grønne logo"></a>
+                <span class="material-symbols-outlined search-mobile">
+                    search
+                    </span>
+            </div>
+                <div class="search">
+            
+                <input class="search-input" type="text">
                 <span class="material-symbols-outlined">
                     search
                     </span>
                 </input>
             </div>
-            <button class="kontakt">
-                Kontakt
-            </button>
+            <a href="hvem-er-vi.html#contact">
+                <button class="kontakt">
+                    Kontakt
+                </button>
+            </a>
+    
         </div>
-            <nav>
+            <nav class="nav-menu">
              <a href="index.html"><img class="header-logo" src="images/hydrovertic-logo.svg" alt="hydrovertics grønne logo"></a>
-                <ul class="flex-row">
-                    <li><a href="#">Forside</a></li>
-                    <li><a href="teknologien.html">Teknologien</a></li>
-                    <li><a href="hvem-er-vi.html">Hvem er vi</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="#">Omtale</a></li>
-                    <li><a href="#partners">Partnere</a></li>
+                <ul class="flex-row nav-mobile">
+                    <li class="navitem"><a href="#">Forside</a></li>
+                    <li class="navitem"><a href="teknologien.html">Teknologien</a></li>
+                    <li class="navitem"><a href="hvem-er-vi.html">Hvem er vi</a></li>
+                    <li class="navitem"><a href="faq.html">FAQ</a></li>
+                    <li class="navitem"><a href="omtale.html">Omtale</a></li>
+                    <li class="navitem"><a href="#partners">Partnere</a></li>
+                    <li class="navitem-mobile"><img src="images/logo-single.png" alt="hydrovertic logo without text"></a></li>
                 </ul>
             </nav>
+
+            
     </header>
 
     <main>
         <section class="background-white">
             <div class="flex-row flex-hero main-whitespace">
                 <div class="flex-column">
-                    <h1>Skab fremtiden i dit gartneribrug <br> med vertikalt landbrug</h1>
+                    <h1 class="hero-h1">Skab fremtiden i dit gartneribrug med vertikalt landbrug</h1>
                     <div class="frontpage-line"></div>
-                    <p class="hero-text">Skræddersyede løsninger for hydroponisk vertikalt landbrug <br> til rum og drivhuse i alle størrelser. <br> Skab mere vækst i dit gartneri.</p>
+                    <div class="video-blob-mobile">
+                        <img class="blob" src="images/yessir.png" alt="">
+                        <img class="frontpage-test-image" src="images/forside-test-billede.png" alt="">
+                    </div>
+                    <div class="hero-text-box">
+                        <p class="hero-text">Skræddersyede løsninger for hydroponisk vertikalt landbrug  til rum og drivhuse i alle størrelser.<br> Skab mere vækst i dit gartneri.</p>
+                    </div>
                     <div class="frontpage-buttons">
                         <button class="call-to-action">Læs mere om teknologien</button>
                         <button class="call-to-action-2">Kontakt os her</button>
@@ -68,14 +92,14 @@
                 <div class="title-line"></div>
             <div class="flex-row flex-fordele main-whitespace">
                 <div>
-                    <img src="images/vertical-system.png" alt="">
+                    <img class="vertical-system" src="images/vertical-system.png" alt="picture of hydroponic vertical farming system">
                 </div>
-                <div>
+                <div class=>
                     <ul class="benefits">
                         <li class="benefit-single"><img src="images/leaf-icon.png" alt="leaf icon"> <p>Vertikalt landbrug erstatter ikke traditionelt landbrug</p></li>
                         <li class="benefit-single"><img src="images/leaf-icon.png" alt="leaf icon"> <p>Ingen udledning af pesticider og gødning</p></li>
                         <li class="benefit-single"><img src="images/leaf-icon.png" alt="leaf icon"> <p>Effektiv og kontrolleret produktion</p></li>
-                        <li class="benefit-single"><img src="images/leaf-icon.png" alt="leaf icon"> <p>Højere fortjeneste pr. plante pga. nedsatte produktionsomkostninger :)</p></li>
+                        <li class="benefit-single"><img src="images/leaf-icon.png" alt="leaf icon"> <p>Højere fortjeneste pr. plante pga. nedsatte produktionsomkostninger</p></li>
                         <li class="benefit-single"><img src="images/leaf-icon.png" alt="leaf icon"> <p>Simpel betjening - nemt for sæsonarbejdere at bruge</p></li>
                         <li class="benefit-single"><img src="images/leaf-icon.png" alt="leaf icon"> <p>Kontrolleret dyrkning giver konsistent kvalitet</p></li>
                     </ul>
@@ -90,7 +114,7 @@
                         <p>“Kontakt mig for en afklaring af, hvordan vores systemer kan gavne dig og dit gartneri”</p>
                         <div class="statement-line"></div>
                     </div>
-                    <img src="images/statement-iris.png" alt="picture of Iris - CEO">
+                    <img class="statement-image" src="images/statement-iris.png" alt="picture of Iris - CEO">
                     <div>
                 
                     <ul class="statement-personal-info">
@@ -136,11 +160,11 @@
             
             <div id="info-box"> 
                 <p id="info-main-text"></p>
-                <p class="hidden-text filterDiv sprojtemidler">Globalt går op til 20-40% af afgrøder tabt på grund af skadedyr og sygdomme. Læs mere om problemet her. Af samme grund, bruger traditionelt landbrug ofte kemi til at sikre eller rede inficerede grøntsager. Langt de fleste sygdomme og skadedyr er relateret til brugen af jord. Når man dyrker i vand, er der derfor markant færre trusler og dermed er der ikke er behov for pesticider og andre kemikalerier.</p>
-                <p class="hidden-text filterDiv forurening">Landbruget udleder store mængder gødning til søer, vandløb og have. Når gødningen opløses i vandet, bliver den til næring for alger, der danner store opblomstringer kaldet eutrofiering, hvilket har en langt række konsekvenser for vores økosystemer. Læs mere om problemet her. Med hydroponi dyrkes der i lukkede systemer, hvor alt næring der tilføres optages. Hydroponi nedsætter dermed udslippet med 100%.</p>
-                <p class="hidden-text filterDiv naturen">61% af Danmarks areal er landbrug, hvilket resultere i skovrydninger og tab af biodiversitet.Hydroponi er 11 gange mere effektivt end traditionelt landbrug og bruger derfor mindre plads pr. afgrød.<br>Læs mere om forskellene her.</p>
-                <p class="hidden-text filterDiv import">Hvert år impoteres mere end 15 milioner kg. grøntsager til danmark, hvilket er forbundet med en endnu højere Co2 belastning. Læs mere om hvorfor det er vigtigt at spise lokalt mad her. Med hydroponisk dyrkning, kan man dyrke grønt hele året og dermed altid få lokale grøntsager.</p>
-                <p class="hidden-text filterDiv vand"> Landbruget er ansvarlig for 70% af vores globale vand forbrug. Læs mere om problemet her. Hydroponi bruger 92% mindre vand end traditionelt landbrug. Selvom teknologien endnu ikke kan bruges på alle typer afgrødre, er det en forskel der kan mærkes.</p>
+                <p class="hidden-text filterDiv sprojtemidler paragraph">Globalt går op til 20-40% af afgrøder tabt på grund af skadedyr og sygdomme. Læs mere om problemet her. Af samme grund, bruger traditionelt landbrug ofte kemi til at sikre eller rede inficerede grøntsager. Langt de fleste sygdomme og skadedyr er relateret til brugen af jord. Når man dyrker i vand, er der derfor markant færre trusler og dermed er der ikke er behov for pesticider og andre kemikalerier.</p>
+                <p class="hidden-text filterDiv forurening paragraph">Landbruget udleder store mængder gødning til søer, vandløb og have. Når gødningen opløses i vandet, bliver den til næring for alger, der danner store opblomstringer kaldet eutrofiering, hvilket har en langt række konsekvenser for vores økosystemer. Læs mere om problemet her. Med hydroponi dyrkes der i lukkede systemer, hvor alt næring der tilføres optages. Hydroponi nedsætter dermed udslippet med 100%.</p>
+                <p class="hidden-text filterDiv naturen paragraph">61% af Danmarks areal er landbrug, hvilket resultere i skovrydninger og tab af biodiversitet.Hydroponi er 11 gange mere effektivt end traditionelt landbrug og bruger derfor mindre plads pr. afgrød.<br>Læs mere om forskellene her.</p>
+                <p class="hidden-text filterDiv import paragraph">Hvert år impoteres mere end 15 milioner kg. grøntsager til danmark, hvilket er forbundet med en endnu højere Co2 belastning. Læs mere om hvorfor det er vigtigt at spise lokalt mad her. Med hydroponisk dyrkning, kan man dyrke grønt hele året og dermed altid få lokale grøntsager.</p>
+                <p class="hidden-text filterDiv vand paragraph"> Landbruget er ansvarlig for 70% af vores globale vand forbrug. Læs mere om problemet her. Hydroponi bruger 92% mindre vand end traditionelt landbrug. Selvom teknologien endnu ikke kan bruges på alle typer afgrødre, er det en forskel der kan mærkes.</p>
 
                 <!-- <p id="info-box-1" class="info-box-text">61% af Danmarks areal er landbrug, hvilket resultere i skovrydninger og tab af biodiversitet.<br><br>Hydroponi er 11 gange mere effektivt end traditionelt landbrug og bruger derfor mindre plads pr. afgrød.<br>Læs mere om forskellene her.</p> -->
                 
@@ -154,13 +178,13 @@
         <section class="background-white">
             <div class="flex-row flex-statement main-whitespace">
                 
-                    <ul class="statement-personal-info text-right">
+                    <ul class="statement-personal-info text-right personal-order">
                         <li class="statement-personal-info-single">Jacob Høj Copeland - CTO</li>
                         <li class="statement-personal-info-single">12 34 56 78</li>
                         <li class="statement-personal-info-single">jc@hydrovertic.com</li>
                     </ul>
                     
-                    <img src="images/statement-jacob.png" alt="picture of Iris - CEO">
+                    <img class="statement-image" src="images/statement-jacob.png" alt="picture of Iris - CEO">
                     <div>
                 
                 <div class="statement-text2">
@@ -172,7 +196,7 @@
             </div>
         </section>
 
-        <section class="background-green">
+        <section class="background-green news">
             <h2 class="text-center">Nyheder</h2>
             <div class="title-line"></div>
             <div class="flex-row news-flex main-whitespace">

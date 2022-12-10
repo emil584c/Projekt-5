@@ -1,31 +1,12 @@
 
 
 
-// let moreText = document.getElementById("info-box-1");
-// let box = document.getElementById("yes");
+
 let mainText = document.getElementById("info-main-text")
 let infoBox = document.getElementById("info-box")
 
-// box.addEventListener("click", function folding(){ 
-//     if(moreText.style.display = "none"){
-//         infoBox.style.height ="250px";
-//         mainText.style.display ="none";
-//         moreText.style.opacity = "100";
-//         moreText.style.display = "flex";
-//     }
-// });
 
-
-
-
-
-
-
-
-// tilmeld afmeld
 const hydroponiBox = document.querySelectorAll(".hydroponi-box");
-
-
 
 let values = Array.prototype.map.call(hydroponiBox, function(el) {
     return el;
@@ -34,7 +15,7 @@ let values = Array.prototype.map.call(hydroponiBox, function(el) {
 
 values.forEach(buttonText => {
     buttonText.addEventListener('click', function handleClick(event) {
-        infoBox.style.height ="250px";
+        infoBox.style.height ="450px";
         mainText.style.display ="none";
         infoBox.style.padding = "2rem"; 
     });
@@ -109,3 +90,14 @@ function w3RemoveClass(element, name) {
 
 // const hiddenElements = document.querySelectorAll('.hidden');
 // hiddenElements.forEach((el) => observer.observe(el));
+
+
+
+// hamburger menu
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () =>{
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})

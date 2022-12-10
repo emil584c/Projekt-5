@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/afp0tgt.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="javascript/scripts.js" defer></script>
     <script src="https://kit.fontawesome.com/1e8b3aab75.js" crossorigin="anonymous"></script>
 </head>
@@ -27,11 +26,9 @@
                     </span>
                 </input>
             </div>
-            <a href="hvem-er-vi.html#contact">
-                <button class="kontakt">
-                    Kontakt
-                </button>
-            </a>
+            <button class="kontakt">
+                Kontakt
+            </button>
         </div>
             <nav>
              <a href="index.html"><img class="header-logo" src="images/hydrovertic-logo.svg" alt="hydrovertics grønne logo"></a>
@@ -49,75 +46,94 @@
     <main>
 
         <section>
-            <div class="flex-column main-whitespace">
-                <h1>Teknologien</h1>
-                <div class="title-line" id="tech-line"></div>
-                <p class="paragraph">Hydrovertic systemet kan tilpasses alle rum, og opskaleres gradvist - Hvilket gør det ideelt til drivhusejere der ønsker at prøve kræfter med hydroponi eller vertikalt landbrug, OG for andre der ønsker en produktion af grønt til eget forbrug, kantiner eller restauranter.</p>
-                <div class="teknologi-video-placeholder"><iframe class="video" src="https://www.youtube.com/embed/QT4TWbPLrN8?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture autoplay" allowfullscreen></iframe></div>
+
+            <div class="main-whitespace">
+                <h1 class="main-whitespace">Omtale</h1>
+                <div class="title-line" id="omtale-line"></div>
             </div>
+
+                <h2 class="text-center">Hvad siger vores kunder?</h2>
+                <div class="title-line"></div>
+
+            <div class="flex-row reviews main-whitespace">
+
+                <div class="review-card flex-column">
+                    <div class="review-card-person flex-row">
+                        <img src="images/person.png" alt="">
+                        <p> Martin H.</p>
+                    </div>
+                    <div class="review-text">
+                        <p class="paragraph-thick">"Jeg elsker bare når det går opad!"</p>
+                    </div>
+                </div>
+
+                <div class="review-card flex-column">
+                    <div class="review-card-person flex-row">
+                        <img src="images/person.png" alt="">
+                        <p> Karsten P.</p>
+                    </div>
+                    <div class="review-text">
+                        <p class="paragraph-thick">"The sky is the limit, eller det er faktisk Odense Kommune."</p>
+                    </div>
+                </div>
+                
+                <div class="review-card flex-column">
+                    <div class="review-card-person flex-row">
+                        <img src="images/person.png" alt="">
+                        <p> Verti K.</p>
+                    </div>
+                    <div class="review-text">
+                        <p class="paragraph-thick">"Før spildte jeg nok vand til at brødføde en lille by, nu holdes det indenfor systemet."</p>
+                    </div>
+                </div>
+            </div>
+
         </section>
 
         <section class="background-green">
-            <div class="flex-row main-whitespace teknologi-info-flex">
-                <div class="flex-column info-section-flex">
-                    <div>
-                        <h2>Hydroponi</h2>
-                        <p class="paragraph teknologi-info-section">Hydrovertic systemet er et hydroponisk system, hvilket betyder at planter gros i vand i stedet for jord. Specifikt, bygger Hydrovertic systemet på næringsfilmteknikken (NFT), hvor næringsrigt vand løber over plantens rødder, opsamles, renses og sendes over rødderne igen. På den måde bruges hver en dråbe vand og der frigives ikke skadelige stoffer til miljøet. 
-                            Der findes mange typer teknikker indenfor hydroponi, der alle har deres fordele og ulemper. NFT er en meget robust teknik, der muliggør en stabil og vertikal produktion uden steriliserings kamre.</p>
-                    </div>
-                    <div>
-                        <h2>Vertikalt</h2>
-                        <p class="paragraph teknologi-info-section">Hydrovertic systemet er vertikalt, hvilket betyder at der gros i m3 i stedet for m2, ved at have flere lag ovenpå hinanden. Systemet er special designet til at kunne gro så meget som muligt og fylde så lidt som muligt. Derfor betjenes systemet fra de korte sider, hvilket også muliggør den gradvise skalering, da systemerne kan forlænges på langsiden.</p>
-                    </div>
-                </div>
-                <img src="images/hydroponics-farming-concept-with-vertical-water-saving-symbols-cartoon_1284-55526.png" alt="">
-            </div>
-        </section>
 
-        <section class="background-white">
-            <div class="flex-row main-whitespace teknologi-info-flex2">
-                <img src="images/smart-agriculture-iot-with-hand-planting-tree-background.png" alt="">
-                <div class="flex-column info-section-flex2">
-                    
-                        <div>
-                            <h2>Vertikalt uden hydroponi</h2>
-                            <p class="paragraph teknologi-info-section">Som noget nyt, tilbyder Hydrovertic også systemer der bruger jord. Med jord kommer skadedyrsbekæmpelse, men til gengæld kan planterne Ø mærkes.</p>
+            <div class="flex-row news-big-flex main-whitespace">
+                <div class="news-card-big">
+                    <div class="flex-news-card">
+                        <p class="news-title">Fremtiden er vertikal landbrug</p>
+                        <img class="news-image" src="images/58065.png" alt="">
+                        <p class="news-date">08/10/21</p>
+                        <p class="news-text">"Prototypen er klar til at blive testet. - Vertical farming-begrebet har generelt fået stor opmærksomhed, og det har vi også mærket, siger direktør Rudy Mandrup Cazelles..."</p>
+                        <div class="news-bottom-row">
+                            <img src="images/erhverv+.png" alt="">
+                            <a class="news-read-more" href="#">Læs mere</a>
                         </div>
-                        <div>
-                            <h2>Software</h2>
-                            <div class="software-list-flex">
-                                <p class="paragraph teknologi-info-section">Hydrovertic har udviklet vores egen software, der inkluderer</p>
-                                <ul>
-                                    <li class="paragraph teknologi-info-section">- Overvågningsværktøj</li>
-                                    <li class="paragraph teknologi-info-section">- Sporing af parametre, der er essentielle for vækst: PH, vand EC, lufttemperatur, luftfugtighed, CO2 niveau</li>
-                                    <li class="paragraph teknologi-info-section">- Automatisk/planlagt/manuel distribuering af gødning</li>
-                                    <li class="paragraph teknologi-info-section">- Lagring af parametrene til analyse og optimering</li>
-                                </ul>
-                            </div>
+                    </div>
+                </div>
+
+                <div class="news-card-big">
+                    <div class="flex-news-card">
+                        <p class="news-title">Fremtiden er vertikal landbrug</p>
+                        <img class="news-image" src="images/58065.png" alt="">
+                        <p class="news-date">08/10/21</p>
+                        <p class="news-text">"Prototypen er klar til at blive testet. - Vertical farming-begrebet har generelt fået stor opmærksomhed, og det har vi også mærket, siger direktør Rudy Mandrup Cazelles..."</p>
+                        <div class="news-bottom-row">
+                            <img src="images/erhverv+.png" alt="">
+                            <a class="news-read-more" href="#">Læs mere</a>
                         </div>
-                    
+                    </div>
                 </div>
-            </div>
-        </section>
 
-        <section class="background-green">
-            <h2 class="text-center">Et system lavet til gartnerne</h2>
-            <div class="title-line"></div>
+                <div class="news-card-big">
+                    <div class="flex-news-card">
+                        <p class="news-title">Fremtiden er vertikal landbrug</p>
+                        <img class="news-image" src="images/58065.png" alt="">
+                        <p class="news-date">08/10/21</p>
+                        <p class="news-text">"Prototypen er klar til at blive testet. - Vertical farming-begrebet har generelt fået stor opmærksomhed, og det har vi også mærket, siger direktør Rudy Mandrup Cazelles..."</p>
+                        <div class="news-bottom-row">
+                            <img src="images/erhverv+.png" alt="">
+                            <a class="news-read-more" href="#">Læs mere</a>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="flex-row three-points-whitespace">
-                <div class="three-points-box">
-                    <img src="images/handshake.png" alt="illustration of handshake">
-                    <p>Vertikal landbrug erstatter ikke landbrug </p>
-                </div>
-                <div class="three-points-box">
-                    <img src="images/feature.png" alt="illustration of feature">
-                    <p>Intuitivt system designet efter brugerens niveau</p>
-                </div>
-                <div class="three-points-box">
-                    <img src="images/increase.png" alt="illustration of increase">
-                    <p>Systemet skaber op til 18% ekstra profit per plante</p>
-                </div>
             </div>
+
         </section>
 
         <section class="background-white">
@@ -125,10 +141,9 @@
                 <h2>
                     Er du nysgerrig på at høre mere om hvad vores systemer kan gøre for dig og dit gartneri? <br> <br><span class="tek-kontakt-span">Tøv ikke med at kontakte os, hvis du har spørgsmål.</span>
                 </h2>
-                <a href="hvem-er-vi.html#kontakt"><button class="call-to-action">Kontakt os</button></a>
+                <a href="hvem-er-vi.html#contact"><button class="call-to-action">Kontakt os</button></a>
             </div>
         </section>
-
 
     </main>
 

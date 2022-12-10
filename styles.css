@@ -65,15 +65,11 @@ h2{
     font-size: 1.875rem;
 }
 
-h3{
-
-}
-
 .hero-text{
     font-size: 1.25rem;
     font-weight: 500;
     font-style: normal;
-    max-width: 500px;
+    max-width: 480px;
 }
 
 .paragraph-thick{
@@ -135,13 +131,38 @@ li{
     display: flex;
     align-items: center;
 }
-nav{
+.nav-menu{
     display: flex;
     align-items: center;
     width: 100%;
     max-width: 1100px;
     justify-content: space-between;
     
+}
+
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color:#0f0f0f;
+}
+
+.log-in-hamburger{
+    display: none;
+}
+
+
+.navitem-mobile{
+    display: none;
 }
 
 .b2b{
@@ -164,6 +185,10 @@ nav{
     justify-content: flex-end;
 }
 
+.search-mobile{
+    display: none;
+}
+
 .search-input{
     height: 90%;
     width: 100%;
@@ -179,6 +204,7 @@ nav{
     border-radius: 10px 0 10px 0;
     font-size: 1rem;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .fa-magnifying-glass{
@@ -217,6 +243,17 @@ nav{
 }
 
 
+.video-blob-mobile{
+    height: 450px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "overlap";
+    align-self: center;
+    justify-self: center;
+    display: none;
+}
+
+
 
 .flex-hero{
     justify-content: space-between;
@@ -226,7 +263,7 @@ nav{
     height: 5px;
     width: 460px;
     background-color: #509822;
-    margin-bottom: 26px;
+    margin-bottom: 1rem;
 }
 
 .title-line{
@@ -393,7 +430,7 @@ nav{
     display: flex;
     flex-direction: row;
     gap: 5px;
-    align-items:center;
+    align-items: center;
     font-weight: 500;
     font-size: 1.25rem;
 }
@@ -462,8 +499,8 @@ nav{
 
 .news-card{
     border-radius:10px ;
-    max-height: 254px;
-    max-width: 350px;
+    height: 254px;
+    width: 350px;
     background-color: #FCFCFC;
     filter: drop-shadow(0px 3px 10px);
     padding: 1rem;
@@ -640,6 +677,10 @@ footer{
     font-weight: 400;
     line-height: 160%;
     transition: 1s;
+}
+
+.filterDiv.paragraph{
+    line-height: 160%;
 }
 
 .show {
@@ -886,6 +927,12 @@ footer{
     width: 78px;
 }
 
+#omtale-line{
+    margin: 4px 0 30px 0; 
+    width: 130px;
+}
+
+
 
 .quote{
     transform: rotateY(180deg);
@@ -945,4 +992,301 @@ footer{
     border-radius: 5px;
     padding: 0.4rem 1rem;
     margin: auto;
+}
+
+
+.review-card{
+    height: 255px;
+    width: 353px;
+    background-color: #FBFCF9;
+    filter: drop-shadow(0px 3px 3px #00000036);
+    border-radius: 10px;
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.reviews{
+    justify-content: space-between;
+}
+
+.review-card-person{
+    align-items: center;
+    gap: 5px;
+    align-self: flex-start;
+    font-weight: 500;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0.5rem;
+}
+
+.news-card-big{
+    border-radius:10px ;
+    max-height: 434px;
+    max-width: 351px;
+    background-color: #FCFCFC;
+    filter: drop-shadow(0px 3px 10px);
+    padding: 1rem;
+}
+
+.news-image{
+    width: 95%;
+    margin-bottom: 4px;
+}
+
+
+.news-big-flex{
+    justify-content: space-between;
+}
+
+.header-logo-mobile{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 900px){
+
+
+    header{
+        display: flex;
+    }
+
+    .mobile-header-flex{
+        display: flex;
+        gap: 1rem;
+        margin: auto;
+    }
+
+    .header-logo-mobile{
+        display: flex;
+        height: 44px;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+
+
+
+    .nav-menu{
+        all: unset;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        background-color: #FBFCF9;
+        z-index: 999;
+        padding-top: 4rem;
+    }
+
+
+    .nav-mobile{
+        flex-direction: column;
+    }
+
+
+    .navitem{
+       font-size: 30px;
+    }
+
+    .navitem-mobile{
+        display: block;
+    }
+
+    .nav-menu.active{
+        left: 0;
+
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+
+    .kontakt{
+        display: none;
+    }
+
+    .language{
+        display: none;
+    }
+    
+    .search{
+        max-width: 25px;
+        border: 0;
+        display: none;
+    }
+
+    .search-mobile{
+        display: block;
+    }
+
+
+    .header-logo{
+        display: none;
+    }
+
+
+.flex-hero{
+    flex-direction: column;
+    text-align: center;
+}
+.frontpage-line{
+    width: 285px;
+    margin: auto;
+    order: -9;
+    margin-bottom: 1rem;
+}
+
+.frontpage-buttons{
+    margin: auto;
+    order: -5;
+}
+
+.hero-text-box{
+    order: -6;
+    margin: 0.5rem auto auto auto;
+}
+
+
+.hero-h1{
+    order: -10;
+}
+
+h1{
+
+}
+
+.video-blob{
+    display: none;
+}
+
+.video-blob-mobile{
+    display: grid;
+    order: -7;
+    height: 320px;
+}
+
+.frontpage-test-image{
+    height: 320px;
+    z-index: 900;
+    grid-area: overlap;
+    align-self: center;
+    justify-self: center;
+}
+
+.blob{
+    height: 280px;
+}
+
+
+.flex-fordele{
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.vertical-system{
+    height: 314px;
+}
+
+.benefits{
+    align-items: center;
+    max-width: 320px;
+}
+
+.flex-statement{
+    flex-direction: column;
+    text-align: center;
+}
+
+.statement-text{
+    text-align: center;
+    max-width: 400px;
+    padding: 1rem;
+}
+
+.statement-line{
+    margin: auto;
+    width: 222px;
+    margin-top: 4px;
+}
+
+.statement-image{
+    order: -1;
+}
+
+.frontpage-hydroponi{
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#info-box{
+    width: 300px;
+}
+
+
+.statement-personal-info{
+    text-align: center;
+}
+
+.statement-text2{
+    text-align: center;
+}
+
+.personal-order{
+    order: 4;
+}
+
+.news-flex{
+    overflow: scroll;
+    -ms-overflow-style: none;  /* hide scrollbar IE and Edge */
+    scrollbar-width: none;
+    max-width: 1920px;
+}
+
+.news-card{
+    width: 400px;
+    height: 285px;
+    margin-right: 2rem;
+}
+
+
+
+.footer-row{
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.flex-partners{
+    overflow: scroll;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2rem;
+}
+
 }
