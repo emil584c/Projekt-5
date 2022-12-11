@@ -1038,6 +1038,10 @@ footer{
     display: none;
 }
 
+.tech-image-2-mobile{
+    display: none;
+}
+
 
 
 @media screen and (max-width: 900px){
@@ -1347,9 +1351,6 @@ h1{
     max-width: 321px;
 }
 
-.tech-image-2{
-    height: 358px;
-}
 
 .three-points-whitespace{
     flex-direction: column;
@@ -1539,6 +1540,15 @@ h1{
 
 .first-section-mobile{
     padding: 1rem;
+}
+
+.tech-image-2-mobile{
+    display: block;
+    height: 358px;
+}
+
+.tech-image-2{
+    display: none;
 }
 
 /* lines end */
