@@ -19,9 +19,21 @@
 <body class="background-white">
     <header class="main-whitespace">
         <div class="b2b">
-            <p>DK/ENG</p>
-            <div class="search">
-                <input class="search-input" type="text" placeholder="søgnings">
+            <p class="language">DK/ENG</p>
+            <div class="mobile-header-flex">
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <a href="index.html"><img class="header-logo-mobile" src="images/hydrovertic-logo.svg" alt="hydrovertics grønne logo"></a>
+                <span class="material-symbols-outlined search-mobile">
+                    search
+                    </span>
+            </div>
+                <div class="search">
+            
+                <input class="search-input" type="text">
                 <span class="material-symbols-outlined">
                     search
                     </span>
@@ -32,27 +44,31 @@
                     Kontakt
                 </button>
             </a>
+    
         </div>
-            <nav>
+            <nav class="nav-menu" id="slide">
              <a href="index.html"><img class="header-logo" src="images/hydrovertic-logo.svg" alt="hydrovertics grønne logo"></a>
-                <ul class="flex-row">
-                    <li><a href="index.html">Forside</a></li>
-                    <li><a href="teknologien.html">Teknologien</a></li>
-                    <li><a href="hvem-er-vi.html">Hvem er vi</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="omtale.html">Omtale</a></li>
-                    <li><a href="#partners">Partnere</a></li>
+                <ul class="flex-row nav-mobile">
+                    <li class="navitem"><a href="#">Forside</a></li>
+                    <li class="navitem"><a href="teknologien.html">Teknologien</a></li>
+                    <li class="navitem"><a href="hvem-er-vi.html">Hvem er vi</a></li>
+                    <li class="navitem"><a href="faq.html">FAQ</a></li>
+                    <li class="navitem"><a href="omtale.html">Omtale</a></li>
+                    <li class="navitem"><a href="#partners">Partnere</a></li>
+                    <li class="navitem-mobile"><img src="images/logo-single.png" alt="hydrovertic logo without text"></a></li>
                 </ul>
             </nav>
+
+            
     </header>
 
     <main>
 
         <section>
             <div class="flex-column main-whitespace">
-                <h1>Teknologien</h1>
+                <h1 class="h1-tech">Teknologien</h1>
                 <div class="title-line" id="tech-line"></div>
-                <p class="paragraph">Hydrovertic systemet kan tilpasses alle rum, og opskaleres gradvist - Hvilket gør det ideelt til drivhusejere der ønsker at prøve kræfter med hydroponi eller vertikalt landbrug, OG for andre der ønsker en produktion af grønt til eget forbrug, kantiner eller restauranter.</p>
+                <p class="paragraph tech-hero-text">Hydrovertic systemet kan tilpasses alle rum, og opskaleres gradvist - Hvilket gør det ideelt til drivhusejere der ønsker at prøve kræfter med hydroponi eller vertikalt landbrug, OG for andre der ønsker en produktion af grønt til eget forbrug, kantiner eller restauranter.</p>
                 <div class="teknologi-video-placeholder"><iframe class="video" src="https://www.youtube.com/embed/QT4TWbPLrN8?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture autoplay" allowfullscreen></iframe></div>
             </div>
         </section>
@@ -62,7 +78,7 @@
                 <div class="flex-column info-section-flex">
                     <div>
                         <h2>Hydroponi</h2>
-                        <p class="paragraph teknologi-info-section">Hydrovertic systemet er et hydroponisk system, hvilket betyder at planter gros i vand i stedet for jord. Specifikt, bygger Hydrovertic systemet på næringsfilmteknikken (NFT), hvor næringsrigt vand løber over plantens rødder, opsamles, renses og sendes over rødderne igen. På den måde bruges hver en dråbe vand og der frigives ikke skadelige stoffer til miljøet. 
+                        <p class="paragraph teknologi-info-section tech-hydroponi-first-section">Hydrovertic systemet er et hydroponisk system, hvilket betyder at planter gros i vand i stedet for jord. Specifikt, bygger Hydrovertic systemet på næringsfilmteknikken (NFT), hvor næringsrigt vand løber over plantens rødder, opsamles, renses og sendes over rødderne igen. På den måde bruges hver en dråbe vand og der frigives ikke skadelige stoffer til miljøet. 
                             Der findes mange typer teknikker indenfor hydroponi, der alle har deres fordele og ulemper. NFT er en meget robust teknik, der muliggør en stabil og vertikal produktion uden steriliserings kamre.</p>
                     </div>
                     <div>
@@ -70,13 +86,13 @@
                         <p class="paragraph teknologi-info-section">Hydrovertic systemet er vertikalt, hvilket betyder at der gros i m3 i stedet for m2, ved at have flere lag ovenpå hinanden. Systemet er special designet til at kunne gro så meget som muligt og fylde så lidt som muligt. Derfor betjenes systemet fra de korte sider, hvilket også muliggør den gradvise skalering, da systemerne kan forlænges på langsiden.</p>
                     </div>
                 </div>
-                <img src="images/hydroponics-farming-concept-with-vertical-water-saving-symbols-cartoon_1284-55526.png" alt="">
+                <img class="tech-image-1" src="images/hydroponics-farming-concept-with-vertical-water-saving-symbols-cartoon_1284-55526.png" alt="">
             </div>
         </section>
 
         <section class="background-white">
             <div class="flex-row main-whitespace teknologi-info-flex2">
-                <img src="images/smart-agriculture-iot-with-hand-planting-tree-background.png" alt="">
+                <img class="tech-image-2" src="images/smart-agriculture-iot-with-hand-planting-tree-background.png" alt="">
                 <div class="flex-column info-section-flex2">
                     
                         <div>

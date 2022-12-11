@@ -19,9 +19,21 @@
 <body class="background-white">
     <header class="main-whitespace">
         <div class="b2b">
-            <p>DK/ENG</p>
-            <div class="search">
-                <input class="search-input" type="text" placeholder="søgnings">
+            <p class="language">DK/ENG</p>
+            <div class="mobile-header-flex">
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <a href="index.html"><img class="header-logo-mobile" src="images/hydrovertic-logo.svg" alt="hydrovertics grønne logo"></a>
+                <span class="material-symbols-outlined search-mobile">
+                    search
+                    </span>
+            </div>
+                <div class="search">
+            
+                <input class="search-input" type="text">
                 <span class="material-symbols-outlined">
                     search
                     </span>
@@ -32,18 +44,22 @@
                     Kontakt
                 </button>
             </a>
+    
         </div>
-            <nav>
+            <nav class="nav-menu" id="slide">
              <a href="index.html"><img class="header-logo" src="images/hydrovertic-logo.svg" alt="hydrovertics grønne logo"></a>
-                <ul class="flex-row">
-                    <li><a href="index.html">Forside</a></li>
-                    <li><a href="teknologien.html">Teknologien</a></li>
-                    <li><a href="hvem-er-vi.html">Hvem er vi</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="omtale.html">Omtale</a></li>
-                    <li><a href="#partners">Partnere</a></li>
+                <ul class="flex-row nav-mobile">
+                    <li class="navitem"><a href="#">Forside</a></li>
+                    <li class="navitem"><a href="teknologien.html">Teknologien</a></li>
+                    <li class="navitem"><a href="hvem-er-vi.html">Hvem er vi</a></li>
+                    <li class="navitem"><a href="faq.html">FAQ</a></li>
+                    <li class="navitem"><a href="omtale.html">Omtale</a></li>
+                    <li class="navitem"><a href="#partners">Partnere</a></li>
+                    <li class="navitem-mobile"><img src="images/logo-single.png" alt="hydrovertic logo without text"></a></li>
                 </ul>
             </nav>
+
+            
     </header>
 
 
@@ -53,15 +69,16 @@
                 <h1 class="main-whitespace">Hvem er vi</h1>
                 <div class="title-line" id="who-are-we-line"></div>
             </div>
+            <img class="mobile-who-are-we-picture" src="images/JacobogIris.png" alt="picture of Jacob and Iris">
             <div class="flex-row who-are-we-flex main-whitespace">
                 <div class="flex-column who-are-we">
-                    <p class="paragraph-thick align-right">Jacob Høj Copeland - CTO</p>
-                    <div class="paragraph flex-column">
+                    <p class="paragraph-thick align-right waw-pt">Jacob Høj Copeland <span class="waw-name">- CTO</span></p>
+                    <div class="paragraph flex-column waw-p">
                         <p class="align-right">jc@hydrovertic.com</p>
                         <p class="align-right">12 34 56 78</p>
                     </div>
-                    <p class="paragraph-light who-are-we-title">Cand.polyt. - Engineering, Innovation and Business</p>
-                    <div class="flex-row linkedin">
+                    <p class="paragraph-light who-are-we-title waw-pl">Cand.polyt. - Engineering, Innovation and Business</p>
+                    <div class="flex-row linkedin hide">
                         <div class="who-are-we-button">
                             <img src="images/linkedin.svg" alt="linkedIn icon">
                         </div>
@@ -71,17 +88,17 @@
                     </div>
                 </div>
 
-                <img src="images/JacobogIris.png" alt="picture of Jacob and Iris">
+                <img class="who-are-we-picture" src="images/JacobogIris.png" alt="picture of Jacob and Iris">
 
                 <div class="flex-column who-are-we">
                     <div class="flex-column who-are-we">
-                        <p class="paragraph-thick">Iris M. Madsen - CEO</p>
-                        <div class="paragraph">
+                        <p class="paragraph-thick waw-pt">Iris M. Madsen <span class="waw-name">- CEO</span></p>
+                        <div class="paragraph waw-p">
                             <p>im@hydrovertic.com</p>
                             <p>12 34 56 78</p>
                         </div>
-                        <p class="paragraph-light who-are-we-title2">Cand.polyt. - Product Development and Innovation</p>
-                        <div class="flex-row linkedin2">
+                        <p class="paragraph-light who-are-we-title2 waw-pl">Cand.polyt. - Product Development and Innovation</p>
+                        <div class="flex-row linkedin2 hide">
                             <div class="who-are-we-button">
                                 <img src="images/linkedin.png" alt="linkedIn icon">
                             </div>
@@ -104,7 +121,7 @@
                     <p class="paragraph">Jacob havde et brændende ønske om at finde en løsning på alt den plastik der bliver brugt til grønt og Iris, der tidligere har haft et firma, kæmpede for at finde en løsning på det store udled af gødning til naturen.
                         Sammen fandt de en fælles løsning: at gøre hydroponi tilgængelig og profitable for alle størrelse gartnerier.</p>
                 </div>
-                <img src="images/smart-agriculture-iot-with-hand-planting-tree-background.png" alt="">
+                <img class="hydrovertic-section-picture" src="images/smart-agriculture-iot-with-hand-planting-tree-background.png" alt="">
             </div>
 
         </section>
@@ -119,7 +136,7 @@
                     </div>
                     <p class="paragraph-thick">Færdigøre systemdesign</p>
                 </div>
-                <span class="material-symbols-outlined">
+                <span class="material-symbols-outlined arrow">
                     arrow_forward
                     </span>
                 <div class="middle-journey-card">
@@ -130,7 +147,7 @@
                     <p class="paragraph-light">Lige nu er vi I gang med at validere data omrking omkostninger og blabla omkring bibbubu
                     </p>
                 </div>
-                <span class="material-symbols-outlined">
+                <span class="material-symbols-outlined arrow">
                     arrow_forward
                     </span>
                 <div class="journey-card">
@@ -150,13 +167,12 @@
                     <h2>FN´s verdensmål</h2>
                     <div class="flex-column goals-card">
                         <p class="paragraph">Vores arbejde på bæredygtig produktion understøtter FN's Verdensmål</p>
-
                         <div>
                             <div class="flex-row fn-goal-flex">
-                                <img src="images/Verdensmaal-ikon-14.png" alt="">
-                                <img src="images/Verdensmaal-ikon-12.png" alt="">
+                                <img class="fn-goal" src="images/Verdensmaal-ikon-14.png" alt="One of FN´s goals">
+                                <img class="fn-goal" src="images/Verdensmaal-ikon-12.png" alt="One of FN´s goals">
                             </div>
-                            <p class="paragraph-light read-more">Læs mere om FN´s verdens mål her</p>
+                            <p class="paragraph-light read-more read-more-waw">Læs mere om FN´s verdens mål her</p>
                         </div>
                     </div>
                 </div>

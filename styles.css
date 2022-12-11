@@ -820,7 +820,6 @@ footer{
     max-width: 544px;
 }
 
-
 .journey-card{
     filter: drop-shadow(0px 3px 3px #00000036);
     background-color: #FBFCF9;
@@ -870,7 +869,7 @@ footer{
     justify-content: center;
     gap: 2rem;
     align-items: center;
-    padding:1rem ;
+    padding: 1rem;
 }
 
 .goals{
@@ -889,11 +888,6 @@ footer{
     display: flex;
 }
 
-.paragraph-light.readmore{
-   
-}
-
-
 .faq-flex{
     gap: 1.5rem;
 }
@@ -904,10 +898,6 @@ footer{
     flex-direction: column;
     align-items: flex-end;
 }
-
-
-
-
 
 /* lines */
 
@@ -1044,19 +1034,43 @@ footer{
     display: none;
 }
 
+.mobile-who-are-we-picture{
+    display: none;
+}
+
 
 
 @media screen and (max-width: 900px){
 
 
+    h1{
+        font-size: 2.188;
+    }
+
+    h2{
+        font-size: 1.563rem;
+    }
+
     header{
         display: flex;
+    }
+
+    .hide{
+        display: none;
     }
 
     .mobile-header-flex{
         display: flex;
         gap: 1rem;
         margin: auto;
+        align-items: center;
+        justify-content: space-between;
+        margin: 2rem auto;
+
+    }
+
+    .b2b{
+        all: unset;
     }
 
     .header-logo-mobile{
@@ -1097,8 +1111,9 @@ footer{
         background-color: #FBFCF9;
         z-index: 999;
         padding-top: 4rem;
+        transition: 0.5s;
     }
-
+  
 
     .nav-mobile{
         flex-direction: column;
@@ -1174,7 +1189,7 @@ footer{
 }
 
 h1{
-
+    text-align: center;
 }
 
 .video-blob{
@@ -1269,12 +1284,12 @@ h1{
 }
 
 .news-card{
+    all: unset;
     width: 400px;
     height: 285px;
     margin-right: 2rem;
+    background-color: #44821C;
 }
-
-
 
 .footer-row{
     flex-direction: column;
@@ -1289,4 +1304,165 @@ h1{
     gap: 2rem;
 }
 
+
+.teknologi-video-placeholder{
+    height: 248px;
+    width: 321px;
+    order: -1;
+}
+
+.h1-tech{
+    order: -3;
+}
+
+.paragraph{
+    max-width: 321px;
+    margin: auto;
+}
+
+
+.tech-hero-text{
+    margin-top: 1rem;
+}
+
+.teknologi-info-flex{
+    flex-direction: column;
+    max-width: 321px;
+}
+
+.tech-image-1{
+    height: 246px;
+    margin-top: 1rem;
+   
+}
+
+.teknologi-info-flex2{
+    flex-direction: column;
+    max-width: 321px;
+}
+
+.tech-image-2{
+    height: 358px;
+}
+
+.three-points-whitespace{
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.three-points-box{
+    width: 312px;
+    height: 318px;
+    padding: 1rem;
+}
+
+.teknologi-kontakt{
+    max-width: 321px;
+}
+
+.tek-kontakt-span{
+    font-size: 1.25rem;
+}
+
+.mobile-who-are-we-picture{
+    display: block;
+    height: 200px;
+    margin: 2rem auto 2rem auto;
+}
+
+.who-are-we-picture{
+    display: none;
+}
+
+
+.who-are-we-flex{
+    
+    max-width: 321px;
+}
+
+.waw-p{
+    font-size: 1rem;
+}
+
+.waw-pt{
+    font-size: 1rem;
+
+}
+
+.align-right{
+    
+}
+
+.who-are-we{
+    
+}
+
+.waw-pl{
+    display: none;
+}
+
+.waw-name{
+    display: none;
+}
+
+.hydrovertic-section{
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hydrovertic-section-picture{
+    max-width: 321px;
+}
+
+.journey-card-section{
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.arrow{
+    transform: rotate(90deg);
+}
+
+.goals{
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.goals-card{
+    flex-direction: column;
+    height: 500px;
+    width: 246px;
+    gap: -4rem;
+}
+
+.fn-goal{
+    height: 138px;
+    width: 138px;
+    margin: auto;
+}
+
+.fn-goal-flex{
+    flex-direction: column;
+    height: 296px;
+}
+
+.read-more-waw{
+    margin-top: 1rem;
+}
+
+/* lines */
+
+#tech-line{
+    order: -2;
+    margin: auto;
+    width: 196px;
+}
+
+#who-are-we-line{
+    margin: auto;
+    width: 216px;
+}
+
+/* lines end */
 }
