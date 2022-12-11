@@ -391,7 +391,7 @@ li{
     text-align: center;
     margin: 2rem auto;
     background-color: #FBFCF9;
-    filter: drop-shadow(0px 3px 10px);
+    filter: drop-shadow(0px 3px 3px #00000036);
     width: 632px;
     height: 0px;
     border-radius: 10px;
@@ -502,7 +502,7 @@ li{
     height: 254px;
     width: 350px;
     background-color: #FCFCFC;
-    filter: drop-shadow(0px 3px 10px);
+    filter: drop-shadow(0px 3px 3px #00000036);
     padding: 1rem;
 }
 
@@ -1015,7 +1015,7 @@ footer{
     max-height: 434px;
     max-width: 351px;
     background-color: #FCFCFC;
-    filter: drop-shadow(0px 3px 10px);
+    filter: drop-shadow(0px 3px 3px #00000036);
     padding: 1rem;
 }
 
@@ -1031,6 +1031,7 @@ footer{
 
 .header-logo-mobile{
     display: none;
+    cursor: pointer;
 }
 
 .mobile-who-are-we-picture{
@@ -1277,17 +1278,19 @@ h1{
 
 .news-flex{
     overflow: scroll;
-    -ms-overflow-style: none;  /* hide scrollbar IE and Edge */
-    scrollbar-width: none;
-    max-width: 1920px;
 }
 
 .news-card{
     all: unset;
     width: 400px;
-    height: 285px;
+    height: 235px;
     margin-right: 2rem;
-    background-color: #44821C;
+    background-color: #FCFCFC;
+    filter: drop-shadow(0px 3px 3px #00000036);
+    padding: 1rem;
+    border-radius: 10px;
+    
+
 }
 
 .footer-row{
@@ -1490,9 +1493,15 @@ h1{
     width: 100%;
 }
 
-.news-card-big{
+
+.flex-news-card{
     width: 351px;
     height: 440px;
+}
+
+.news-bottom-row{
+    width: 320px;
+    padding-top: 45px;
 }
 
 /* lines */
