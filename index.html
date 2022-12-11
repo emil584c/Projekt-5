@@ -49,7 +49,7 @@
             <nav class="nav-menu" id="slide">
              <a href="index.html"><img class="header-logo" src="images/hydrovertic-logo.svg" alt="hydrovertics grønne logo"></a>
                 <ul class="flex-row nav-mobile">
-                    <li class="navitem"><a href="#">Forside</a></li>
+                    <li class="navitem nav-constant"><a href="#">Forside</a></li>
                     <li class="navitem"><a href="teknologien.html">Teknologien</a></li>
                     <li class="navitem"><a href="hvem-er-vi.html">Hvem er vi</a></li>
                     <li class="navitem"><a href="faq.html">FAQ</a></li>
@@ -63,6 +63,7 @@
     </header>
 
     <main>
+
         <section class="background-white first-section-mobile">
             <div class="flex-row flex-hero main-whitespace">
                 <div class="flex-column">
@@ -128,33 +129,32 @@
         </section>
           
         <section class="background-green text-center">
-            <h2 >Hvorfor Hydroponi</h2>
-            <div class="title-line hydroponi"></div>
+            <h2>Hvorfor Hydroponi</h2>
+            <div class="title-line hydroponi" id="hydroponi"></div>
             <p class="paragraph-light hydroponi">Tryk på de individuelle kasser for at læse mere om fordelene ved hydroponi.</p>
 
             <div id="scrollmenu" class="flex-row frontpage-hydroponi main-whitespace">
                 <div class="active"></div>
                 <div onclick="filterSelection('sprojtemidler')" class="hydroponi-box btn">
-                    <img class="hydroponi-illustration" src="images/sprojtemidler.svg" alt="">
-                    <p>Ingen sprøjtemidler</p>
+                    <img class="hydroponi-illustration hydroponi-icon" src="images/sprojtemidler.svg" alt="">
+                    <p class="hydroponi-text">Ingen sprøjtemidler</p>
                 </div>
                 <div onclick="filterSelection('forurening')" class="hydroponi-box btn">
-                    <img class="hydroponi-illustration" src="images/forurening.svg" alt="">
-                    <p>Mindre forurening</p>
+                    <img class="hydroponi-illustration hydroponi-icon" src="images/forurening.svg" alt="">
+                    <p class="hydroponi-text">Mindre forurening</p>
                 </div>
                 <div onclick="filterSelection('naturen')" class="hydroponi-box btn">
-                    <img class="hydroponi-illustration" src="images/naturen.svg" alt="">
-                    <p>Bevarer naturen</p>
+                    <img class="hydroponi-illustration hydroponi-icon" src="images/naturen.svg" alt="">
+                    <p class="hydroponi-text">Bevarer naturen</p>
                 </div>
                 <div onclick="filterSelection('import')" class="hydroponi-box btn">
-                    <img class="hydroponi-illustration" src="images/import.svg" alt="">
-                    <p>Mindre import</p>
+                    <img class="hydroponi-illustration hydroponi-icon" src="images/import.svg" alt="">
+                    <p class="hydroponi-text">Mindre import</p>
                 </div>
                 <div onclick="filterSelection('vand')" class="hydroponi-box btn">
-                    <img class="hydroponi-illustration" src="images/water.svg" alt="">
-                    <p>Mindre vand</p>
+                    <img class="hydroponi-illustration hydroponi-icon" src="images/water.svg" alt="">
+                    <p class="hydroponi-text">Mindre vand</p>
                 </div>
-                
                 
             </div>
             
@@ -171,7 +171,6 @@
                 <p class="info-box-text"></p>
                 <p></p>
                 <p></p>
-
             </div>
         </section>
 
@@ -188,7 +187,7 @@
                     <div>
                 
                 <div class="statement-text2">
-                    <p>“Vi vil gøre det nemt at <br> implementere vertikalt landbrug <br> i eksisterende logistik”</p>
+                    <p>“Vi vil gøre det <span class="underline">nemt</span> at <br> implementere vertikalt landbrug <br> i eksisterende logistik”</p>
                     <div class="statement-line hidden"></div>
                 </div>
                 
@@ -198,7 +197,7 @@
 
         <section class="background-green">
             <h2 class="text-center">Nyheder</h2>
-            <div class="title-line"></div>
+            <div class="title-line news-line"></div>
             <div class="flex-row news-flex main-whitespace">
                 <div class="news-card">
                     <div class="flex-news-card">
@@ -239,7 +238,7 @@
 
         <section id="partners" class="background-white">
             <h2 class="text-center">Partnere</h2>
-            <div class="title-line"></div>
+            <div class="title-line news-line"></div>
             <div class="flex-row flex-partners main-whitespace">
                 <a href="">
                     <div class="partner-card">
@@ -341,9 +340,6 @@
                         <p class="partner-text">Samarbejdspartner med Micro-Greens Danmark</p>
                     </div>
                 </a>
-            
-                
-                
             </div>
         </section>
     </main>

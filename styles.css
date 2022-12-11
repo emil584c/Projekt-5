@@ -161,6 +161,43 @@ li{
 }
 
 
+.navitem{
+    text-decoration: none; 
+    position: relative; 
+}
+
+.navitem:after{
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 0%;
+    bottom: -2px;
+    background-color: #509822;
+    right: -0px;
+    transition: 1s;
+    
+}
+
+.navitem:hover:after{
+    width: 100%;
+    left: 0%;
+}
+
+.nav-constant{
+    text-decoration: none; 
+    position: relative; 
+}
+
+.nav-constant:after{
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 100%;
+    bottom: -2px;
+    background-color: #509822;
+    right: -0px;
+}
+
 .navitem-mobile{
     display: none;
 }
@@ -261,7 +298,7 @@ li{
 
 .frontpage-line{
     height: 5px;
-    width: 460px;
+    width: 415px;
     background-color: #509822;
     margin-bottom: 1rem;
 }
@@ -272,7 +309,7 @@ li{
     background-color: #509822;
     margin-bottom: 26px;
     margin: auto;
-    margin: 8px auto 30px auto;
+    margin: 4px auto 30px auto;
 }
 
 .title-line.hydroponi{
@@ -328,7 +365,7 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     font-size: 1.25rem;
     font-weight: 500;
     cursor: pointer;
@@ -382,7 +419,13 @@ li{
     animation-iteration-count: 1;
   }
 
+.hydroponi-icon{
+    margin-bottom: 16%;
+}
 
+.hydroponi-text{
+    margin-bottom: 6%;
+}
 
 #info-box{
     display: flex;
@@ -451,7 +494,7 @@ li{
     flex-direction:column;
     font-size: 1.875rem;
     font-weight: 500;
-    max-width: 480px;
+    max-width: 440px;
     text-align: right;
 }
 
@@ -470,10 +513,27 @@ li{
 
 .statement-line{
     height: 5px;
-    width: 460px;
+    width: 220px;
     background-color: #509822;
     margin-bottom: 26px;
     max-width: 287px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.underline{
+    text-decoration: none; 
+    position: relative; 
+}
+
+.underline:after{
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 100%;
+    bottom: 2px;
+    background-color: #509822;
+    right: -0px;
 }
 
 .statement-personal-info{
@@ -922,10 +982,32 @@ footer{
     width: 130px;
 }
 
-
-
 .quote{
     transform: rotateY(180deg);
+}
+
+#hydroponi{
+    width: 316px;
+}
+
+.news-line{
+    width: 186px;
+}
+
+#three-points-line{
+    width: 404px;
+}
+
+#journey-line{
+    width: 210px;
+}
+
+#contact-line{
+    width: 204px;
+}
+
+#review-line{
+    width: 382px;
 }
 
 /* line end */
