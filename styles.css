@@ -1305,6 +1305,7 @@ h1{
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    text-align: center;
 }
 
 .flex-partners{
@@ -1312,6 +1313,10 @@ h1{
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 2rem;
+}
+
+.footer-icons{
+    justify-content: center;
 }
 
 
