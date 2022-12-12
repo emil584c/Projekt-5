@@ -135,14 +135,18 @@
 
             <div id="scrollmenu" class="flex-row frontpage-hydroponi main-whitespace">
                 <div class="active"></div>
-                <div onclick="filterSelection('sprojtemidler')" class="hydroponi-box btn">
-                    <img class="hydroponi-illustration hydroponi-icon" src="images/sprojtemidler.svg" alt="">
-                    <p class="hydroponi-text">Ingen sprøjtemidler</p>
-                </div>
-                <div onclick="filterSelection('forurening')" class="hydroponi-box btn">
-                    <img class="hydroponi-illustration hydroponi-icon" src="images/forurening.svg" alt="">
-                    <p class="hydroponi-text">Mindre forurening</p>
-                </div>
+                <a href="#vand">
+                    <div onclick="filterSelection('sprojtemidler')" class="hydroponi-box btn">
+                        <img class="hydroponi-illustration hydroponi-icon" src="images/sprojtemidler.svg" alt="">
+                        <p class="hydroponi-text">Ingen sprøjtemidler</p>
+                    </div>
+                </a>
+                <a href="#vand">
+                    <div onclick="filterSelection('forurening')" class="hydroponi-box btn">
+                        <img class="hydroponi-illustration hydroponi-icon" src="images/forurening.svg" alt="">
+                        <p class="hydroponi-text">Mindre forurening</p>
+                    </div>
+                </a>
                 <div onclick="filterSelection('naturen')" class="hydroponi-box btn">
                     <img class="hydroponi-illustration hydroponi-icon" src="images/naturen.svg" alt="">
                     <p class="hydroponi-text">Bevarer naturen</p>
@@ -151,7 +155,7 @@
                     <img class="hydroponi-illustration hydroponi-icon" src="images/import.svg" alt="">
                     <p class="hydroponi-text">Mindre import</p>
                 </div>
-                <div onclick="filterSelection('vand')" class="hydroponi-box btn">
+                <div onclick="filterSelection('vand')" class="hydroponi-box btn" id="vand">
                     <img class="hydroponi-illustration hydroponi-icon" src="images/water.svg" alt="">
                     <p class="hydroponi-text">Mindre vand</p>
                 </div>
