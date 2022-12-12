@@ -15,7 +15,7 @@ let values = Array.prototype.map.call(hydroponiBox, function(el) {
 
 values.forEach(buttonText => {
     buttonText.addEventListener('click', function handleClick(event) {
-        infoBox.style.height ="450px";
+        infoBox.style.height ="fit-content";
         mainText.style.display ="none";
         infoBox.style.padding = "2rem"; 
     });
@@ -101,3 +101,28 @@ hamburger.addEventListener("click", () =>{
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
 })
+
+
+
+
+
+// const goAway = getElementsById("goaway")
+// const sendButton = getElementById("send")
+
+// sendButton.addEventListener('click'() =>{
+//   goAway.forEach(() => {
+//     if (goAway.style.display = "flex"){
+//       goAway.style.display = "none";
+//     }
+//   })
+// })
+
+
+// goAway.forEach(buttonText => {
+//   buttonText.addEventListener('click', function handleClick(event) {
+//     if(goAway.style.display = "flex"){
+//       goAway.style.display = "none"
+//     }
+      
+//   });
+// });

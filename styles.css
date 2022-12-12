@@ -297,10 +297,11 @@ li{
 }
 
 .frontpage-line{
-    height: 5px;
+    height: 4px;
     width: 415px;
     background-color: #509822;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
+    margin-top: 0.2rem;
 }
 
 .title-line{
@@ -331,7 +332,9 @@ li{
     margin-top: 20px;
     cursor: pointer;
     transition: 0.3s;
+    margin-bottom: 2rem;
 }
+
 
 .call-to-action:hover,.call-to-action-2:hover{
     background-color: #44821C;
@@ -453,6 +456,7 @@ li{
 
 .frontpage-hydroponi{
     justify-content: space-between;
+    margin-top: 2rem;
 }
 
 #more{
@@ -1126,6 +1130,8 @@ footer{
 
 
 
+
+
 @media screen and (max-width: 900px){
 
 
@@ -1656,4 +1662,10 @@ h1{
 
 
 /* lines end */
+}
+
+
+
+#goaway{
+    display: flex;
 }
