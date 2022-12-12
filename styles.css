@@ -50,7 +50,6 @@ section{
     padding: 4rem 0;
 }
 
-
 /* fonts */
 
 h1{
@@ -97,8 +96,6 @@ h2{
 
 /* fonts slut */
 
-
-
 /* header */
 header{
     display: flex;
@@ -140,7 +137,6 @@ li{
     
 }
 
-
 .hamburger{
     display: none;
     cursor: pointer;
@@ -159,7 +155,6 @@ li{
 .log-in-hamburger{
     display: none;
 }
-
 
 .navitem{
     text-decoration: none; 
@@ -279,7 +274,6 @@ li{
     justify-self: center;
 }
 
-
 .video-blob-mobile{
     height: 450px;
     grid-template-columns: 1fr;
@@ -289,8 +283,6 @@ li{
     justify-self: center;
     display: none;
 }
-
-
 
 .flex-hero{
     justify-content: space-between;
@@ -335,10 +327,8 @@ li{
     margin-bottom: 2rem;
 }
 
-
 .call-to-action:hover,.call-to-action-2:hover{
     background-color: #44821C;
-
 }
 
 .call-to-action-2{
@@ -352,7 +342,6 @@ li{
     cursor: pointer;
     transition: 0.3s;
 }
-
 
 .frontpage-buttons{
     display: flex;
@@ -420,7 +409,7 @@ li{
     animation: swing 1.5s ease;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
-  }
+}
 
 .hydroponi-icon{
     margin-bottom: 16%;
@@ -453,7 +442,6 @@ li{
     position: absolute;
 }
 
-
 .frontpage-hydroponi{
     justify-content: space-between;
     margin-top: 2rem;
@@ -462,9 +450,6 @@ li{
 #more{
     display: none;
 }
-
-
-
 
 .flex-fordele{
     align-items: center;
@@ -552,14 +537,11 @@ li{
     font-weight: 400;
 }
 
-
 .flex-test{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
-
 
 .news-card{
     border-radius:10px ;
@@ -569,7 +551,6 @@ li{
     filter: drop-shadow(0px 3px 3px #00000036);
     padding: 1rem;
 }
-
 
 .news-title{
     font-weight: 500;
@@ -613,7 +594,6 @@ li{
     gap: 2px;
 }
 
-
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
@@ -630,7 +610,6 @@ li{
   'GRAD' 0,
   'opsz' 48
 }
-
 
 .flex-partners{
     display: flex;
@@ -650,7 +629,6 @@ li{
     max-height: 220px;
     justify-content: space-between;
     max-width: 350px;
-    
 }
 
 .partner-image{
@@ -660,7 +638,6 @@ li{
 .partner-name{
     font-weight: 500;
     text-align: center;
-
 }
 
 .partner-text{
@@ -692,7 +669,6 @@ li{
     padding: 2rem 0 1rem 0;
 }
 
-
 footer{
     list-style: none;
 }
@@ -711,7 +687,6 @@ footer{
 .copyright{
     padding-bottom: 2rem;
 }
-
 
 /* transition */
 .hidden{
@@ -749,24 +724,27 @@ footer{
 
 .show {
     display: block;
-  }
+}
 
 .btn.active{
     background-color: red;
 }
 
-
 .teknologi-video-placeholder{
     height: 500px;
     width: 100%;
     margin: 1.5rem auto auto auto;
+   overflow: hidden;
+}
+
+.tech-video{
+    width: 100%;
 }
 
 .video{
     height: 100%;
     width: 100%;
 }
-
 
 .teknologi-info-section.paragraph{
     max-width: 535px;
@@ -824,7 +802,6 @@ footer{
     text-align: center;
 }
 
-
 .teknologi-kontakt{
     text-align: center;
     max-width: 642px;
@@ -834,7 +811,6 @@ footer{
 .tek-kontakt-span{
     font-weight: 400;
 }
-
 
 .who-are-we{
     gap: 1rem;
@@ -922,7 +898,6 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
-
 
 .goals-card{
     width: 500px;
@@ -1081,7 +1056,6 @@ footer{
     text-align: center;
 }
 
-
 .reviews{
     justify-content: space-between;
 }
@@ -1110,7 +1084,6 @@ footer{
     margin-bottom: 4px;
 }
 
-
 .news-big-flex{
     justify-content: space-between;
 }
@@ -1128,135 +1101,120 @@ footer{
     display: none;
 }
 
-
-
-
-
 @media screen and (max-width: 900px){
 
 
-    .body,html{
-        width: 100%;
-    }
+.body,html{
+    width: 100%;
+}
 
-    h1{
-        font-size: 2.188;
-    }
+h1{
+    font-size: 2.188;
+}
 
-    h2{
-        font-size: 1.563rem;
-    }
+h2{
+    font-size: 1.563rem;
+}
 
-    header{
-        display: flex;
-    }
+header{
+    display: flex;
+}
 
-    .hide{
-        display: none;
-    }
+.hide{
+    display: none;
+}
 
-    .mobile-header-flex{
-        display: flex;
-        gap: 1rem;
-        margin: auto;
-        align-items: center;
-        justify-content: space-between;
-        margin: 2rem auto;
+.mobile-header-flex{
+    display: flex;
+    gap: 1rem;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem auto;
+}
 
-    }
+.b2b{
+    all: unset;
+}
 
-    .b2b{
-        all: unset;
-    }
+.header-logo-mobile{
+    display: flex;
+    height: 44px;
+}
 
-    .header-logo-mobile{
-        display: flex;
-        height: 44px;
-    }
+.hamburger{
+    display: block;
+}
 
-    .hamburger{
-        display: block;
-    }
+.hamburger.active .bar:nth-child(2){
+    opacity: 0;
+}
+.hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
 
-    .hamburger.active .bar:nth-child(2){
-        opacity: 0;
-    }
-    .hamburger.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
+.hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+}
 
-    .hamburger.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
+.nav-menu{
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: -100%;
+    top: 80px;
+    gap: 0;
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    background-color: #FBFCF9;
+    z-index: 999;
+    padding-top: 4rem;
+    transition: 0.5s;
+}
 
+.nav-mobile{
+    flex-direction: column;
+}
 
+.navitem{
+    font-size: 30px;
+}
 
+.navitem-mobile{
+    display: block;
+}
 
+.nav-menu.active{
+    left: 0;
+}
 
-    .nav-menu{
-        all: unset;
-        display: flex;
-        flex-direction: column;
-        position: fixed;
-        left: -100%;
-        top: 80px;
-        gap: 0;
-        width: 100%;
-        height: 90vh;
-        text-align: center;
-        background-color: #FBFCF9;
-        z-index: 999;
-        padding-top: 4rem;
-        transition: 0.5s;
-    }
-  
+.hamburger{
+    display: block;
+}
 
-    .nav-mobile{
-        flex-direction: column;
-    }
+.kontakt{
+    display: none;
+}
 
+.language{
+    display: none;
+}
 
-    .navitem{
-       font-size: 30px;
-    }
+.search{
+    max-width: 25px;
+    border: 0;
+    display: none;
+}
 
-    .navitem-mobile{
-        display: block;
-    }
+.search-mobile{
+    display: block;
+}
 
-    .nav-menu.active{
-        left: 0;
-
-    }
-
-    .hamburger{
-        display: block;
-    }
-
-
-    .kontakt{
-        display: none;
-    }
-
-    .language{
-        display: none;
-    }
-    
-    .search{
-        max-width: 25px;
-        border: 0;
-        display: none;
-    }
-
-    .search-mobile{
-        display: block;
-    }
-
-
-    .header-logo{
-        display: none;
-    }
-
+.header-logo{
+    display: none;
+}
 
 .flex-hero{
     flex-direction: column;
@@ -1278,7 +1236,6 @@ footer{
     order: -6;
     margin: 0.5rem auto auto auto;
 }
-
 
 .hero-h1{
     order: -10;
@@ -1309,7 +1266,6 @@ h1{
 .blob{
     height: 280px;
 }
-
 
 .flex-fordele{
     flex-direction: column;
@@ -1359,7 +1315,6 @@ h1{
     width: 300px;
 }
 
-
 .statement-personal-info{
     text-align: center;
 }
@@ -1371,7 +1326,6 @@ h1{
 .personal-order{
     order: 4;
 }
-
 
 
 .main-whitespace{
@@ -1387,8 +1341,6 @@ h1{
     filter: drop-shadow(0px 3px 3px #00000036);
     padding: 1rem;
     border-radius: 10px;
-    
-
 }
 
 .footer-row{
@@ -1410,7 +1362,6 @@ h1{
     justify-content: center;
 }
 
-
 .teknologi-video-placeholder{
     height: 248px;
     width: 321px;
@@ -1426,7 +1377,6 @@ h1{
     margin: auto;
 }
 
-
 .tech-hero-text{
     margin-top: 1rem;
 }
@@ -1439,14 +1389,12 @@ h1{
 .tech-image-1{
     height: 246px;
     margin-top: 1rem;
-   
 }
 
 .teknologi-info-flex2{
     flex-direction: column;
     max-width: 321px;
 }
-
 
 .three-points-whitespace{
     flex-direction: column;
@@ -1478,9 +1426,7 @@ h1{
     display: none;
 }
 
-
 .who-are-we-flex{
-    
     max-width: 321px;
 }
 
@@ -1490,15 +1436,6 @@ h1{
 
 .waw-pt{
     font-size: 1rem;
-
-}
-
-.align-right{
-    
-}
-
-.who-are-we{
-    
 }
 
 .waw-pl{
@@ -1600,7 +1537,6 @@ h1{
     max-width: 1500px;
 }
 
-
 .flex-news-card{
     width: 351px;
     height: 440px;
@@ -1610,8 +1546,6 @@ h1{
     width: 320px;
     padding-top: 45px;
 }
-
-
 
 .first-section-mobile{
     padding: 1rem;
@@ -1625,7 +1559,6 @@ h1{
 .tech-image-2{
     display: none;
 }
-
 
 /* lines */
 
@@ -1660,11 +1593,8 @@ h1{
     width: 290px;
 }
 
-
 /* lines end */
 }
-
-
 
 #goaway{
     display: flex;
