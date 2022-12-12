@@ -346,6 +346,7 @@ li{
     background-color: #509822;
     padding: 0.6rem 0.8rem;
     width: fit-content;
+    height: fit-content;
     border-radius: 20px 0 20px 0;
     color: #FBFCF9;
     font-size: 1.25rem;
@@ -695,7 +696,7 @@ footer{
 }
 
 .footer-h2-text{
-    font-size: 1.25;
+    font-size: 1.25rem;
     font-weight: 500;
     cursor: auto;
 }
@@ -733,7 +734,7 @@ footer{
 
 .filterDiv{
     display: none;
-    font-size: 1.125;
+    font-size: 1.125rem;
     font-weight: 400;
     line-height: 160%;
     transition: 1s;
@@ -1130,7 +1131,7 @@ footer{
 }
 
 h1{
-    font-size: 2.188;
+    font-size: 2.188rem;
 }
 
 h2{
@@ -1498,7 +1499,6 @@ h1{
     flex-direction: column;
     height: 500px;
     width: 246px;
-    gap: -4rem;
 }
 
 .fn-goal{
