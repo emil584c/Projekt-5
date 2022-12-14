@@ -94,7 +94,7 @@ h3{
 
 .hero-text{
     font-size: 1.25rem;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     max-width: 460px;
 }
@@ -280,7 +280,6 @@ li{
 .frontpage-test-image{
     height: 440px;
     z-index: 900;
-    grid-area: overlap;
     align-self: center;
     justify-self: center;
 }
@@ -291,19 +290,9 @@ li{
     
 }
 
-.blob{
-    grid-area: overlap;
-    
-}
-
 .video-blob{
-    display: grid;
-    height: 440px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "overlap";
-    align-self: center;
-    justify-self: center;
+    display: flex;
+    align-items: center;
 }
 
 .frontpage-video{
