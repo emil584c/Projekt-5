@@ -75,6 +75,23 @@ h2{
     font-size: 1.875rem;
 }
 
+h3{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.highlight-text{
+    font-weight: 500;
+}
+
+.hydroponi-link{
+    color: #44821C;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
 .hero-text{
     font-size: 1.25rem;
     font-weight: 500;
@@ -585,9 +602,6 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
-    bottom: 10px;
-    width: 310px;
 }
 
 .news-bottom-row-1{
@@ -612,9 +626,11 @@ li{
 }
 
 .flex-news-card{
+    height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    justify-content: space-between;
+
 }
 
 .material-symbols-outlined {
@@ -749,7 +765,7 @@ footer{
 }
 
 .btn.active{
-    background-color: red;
+    opacity: 60%;
 }
 
 .teknologi-video-placeholder{
@@ -893,6 +909,7 @@ footer{
     justify-content: center;
     height: 136px;
     width: 200px;
+    padding: 0.5rem;
 }
 
 .middle-journey-card{
@@ -914,6 +931,7 @@ footer{
     background-color: #509822;
     border-radius: 16px;
     padding: 4px 11px;
+    margin-bottom: 0.5rem;
 }
 
 .journey-card-section{
@@ -1075,16 +1093,25 @@ footer{
     filter: drop-shadow(0px 3px 3px #00000036);
     border-radius: 10px;
     padding: 1rem;
-    justify-content: center;
+}
+
+.review-card-flex{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
+.review-text{
+    margin-top: 50px;
+}
+
 #review-text2{
-    margin-top: 20px;
+    margin-top: 42px;
 }
 
 #review-text3{
-    margin-top: 30px;
+    margin-top: 32px;
 }
 
 .reviews{
@@ -1094,11 +1121,8 @@ footer{
 .review-card-person{
     align-items: center;
     gap: 5px;
-    align-self: flex-start;
     font-weight: 500;
     font-size: 1.5rem;
-    position: absolute;
-    top: 0.5rem;
 }
 
 .news-card-big{
