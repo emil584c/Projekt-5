@@ -96,7 +96,7 @@ h3{
     font-size: 1.25rem;
     font-weight: 500;
     font-style: normal;
-    max-width: 480px;
+    max-width: 460px;
 }
 
 .paragraph-thick{
@@ -300,6 +300,10 @@ li{
     grid-template-areas: "overlap";
     align-self: center;
     justify-self: center;
+}
+
+.frontpage-video{
+    height: 410px;
 }
 
 .video-blob-mobile{
