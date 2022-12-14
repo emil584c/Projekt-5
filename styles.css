@@ -318,6 +318,11 @@ li{
 
 .flex-hero{
     justify-content: space-between;
+    align-items: center;
+}
+
+.frontpage-text{
+    margin-bottom: 50px;
 }
 
 .frontpage-line{
@@ -599,7 +604,7 @@ li{
     font-weight: 300;
     font-size: 1.2rem;
     max-height: 122px;
-    overflow: hidden;
+    overflow:visible;
 }
 
 .news-bottom-row{
@@ -630,11 +635,10 @@ li{
 }
 
 .flex-news-card{
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    max-height: 180px;
 }
 
 .material-symbols-outlined {
@@ -1319,6 +1323,9 @@ header{
 
 h1{
     text-align: center;
+    max-width: 300px;
+    text-align: center;
+    margin: auto
 }
 
 .video-blob{
@@ -1672,6 +1679,10 @@ h1{
     overflow-y: hidden;
     max-width: 90vh;
     margin: auto;
+}
+
+.frontpage-video{
+    height: 300px;
 }
 
 }

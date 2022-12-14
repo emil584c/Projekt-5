@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="https://use.typekit.net/afp0tgt.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <script src="javascript/scripts.js" defer></script>
+    <script src="javascript/filter-function.js" defer></script>
     <script src="https://kit.fontawesome.com/1e8b3aab75.js" crossorigin="anonymous"></script>
+    <script src="javascript/hamburger-menu.js" defer></script>
 </head>
 <body class="background-white">
     <header class="main-whitespace">
@@ -45,7 +46,7 @@
                     Kontakt
                 </a>
         </div>
-            <nav class="nav-menu" id="slide">
+            <nav class="nav-menu">
              <a href="index.html"><img class="header-logo" src="images/hydrovertic-logo.svg" alt="hydrovertics grønne logo"></a>
                 <ul class="flex-row nav-mobile">
                     <li class="navitem nav-constant"><a href="#">Forside</a></li>
@@ -57,20 +58,17 @@
                     <li class="navitem-mobile"><img src="images/logo-single.png" alt="hydrovertic logo without text"></li>
                 </ul>
             </nav>
-
-            
     </header>
 
     <main>
 
         <section class="background-white first-section-mobile">
             <div class="flex-row flex-hero main-whitespace">
-                <div class="flex-column">
+                <div class="flex-column frontpage-text">
                     <h1 class="hero-h1">Skab vækst i dit gartneri med vertikalt landbrug</h1>
                     <div class="frontpage-line"></div>
                     <div class="video-blob-mobile">
-                        <img class="blob" src="images/yessir.png" alt="">
-                        <img class="frontpage-test-image" src="images/forside-test-billede.png" alt="">
+                        <video class="frontpage-video" src="images/videos/frontpage-video.mp4" autoplay loop></video>
                     </div>
                     <div class="hero-text-box">
                         <p class="hero-text">Skræddersyede modulære systemer til hydroponisk og vertikal dyrkning, der kan implementeres gradvist, samt øge effektiviteten og bæredygtigheden i dit gartneri.</p>
