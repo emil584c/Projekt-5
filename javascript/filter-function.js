@@ -90,27 +90,3 @@ for (var i = 0; i < btns.length; i++) {
 
 // const hiddenElements = document.querySelectorAll('.hidden');
 // hiddenElements.forEach((el) => observer.observe(el));
-
-
-
-
-// const goAway = getElementsById("goaway")
-// const sendButton = getElementById("send")
-
-// sendButton.addEventListener('click'() =>{
-//   goAway.forEach(() => {
-//     if (goAway.style.display = "flex"){
-//       goAway.style.display = "none";
-//     }
-//   })
-// })
-
-
-// goAway.forEach(buttonText => {
-//   buttonText.addEventListener('click', function handleClick(event) {
-//     if(goAway.style.display = "flex"){
-//       goAway.style.display = "none"
-//     }
-      
-//   });
-// });
