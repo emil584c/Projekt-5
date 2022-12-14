@@ -715,6 +715,15 @@ li{
     padding: 2rem 0 1rem 0;
 }
 
+.footer-row2{
+    display: flex;
+    justify-content: space-between;
+    max-width: 904px;
+    margin: auto;
+    padding: 2rem 0 1rem 0;
+    align-items: center;
+}
+
 footer{
     list-style: none;
 }
@@ -1172,6 +1181,10 @@ footer{
     text-align: center;
 }
 
+.footer-logo{
+    height: 57px;
+}
+
 @media screen and (max-width: 900px){
 
 
@@ -1427,6 +1440,13 @@ h1{
 }
 
 .footer-row{
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+}
+
+.footer-row2{
     flex-direction: column;
     align-items: center;
     gap: 2rem;
