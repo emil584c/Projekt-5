@@ -1,6 +1,8 @@
-var i = 0; 			// Start Point
-var images = [];	// Images Array
-var time = 3000;	// Time Between Switch
+let i = 0; 			// Start Point
+let images = [];	// Images Array
+let time = 3000;	// Time Between Switch
+
+
 
 // Image List
 images[0] = "images/vertical-system.webp";
@@ -29,3 +31,6 @@ function slideImg() {
 
 // Run function when page loads
 window.onload = slideImg;
+
+
+
