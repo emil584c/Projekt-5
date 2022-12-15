@@ -1,17 +1,31 @@
-var images = ["images\vertical-system.webp", "images\smart-agriculture-iot-with-hand-planting-tree-background.webp", "images\Verdensmaal-ikon-12.webp", "images\forside-test-billede.webp"]
-var i = 0;
+var i = 0; 			// Start Point
+var images = [];	// Images Array
+var time = 3000;	// Time Between Switch
 
+// Image List
+images[0] = "images/vertical-system.webp";
+images[1] = "images/smart-agriculture-iot-with-hand-planting-tree-background.webp";
+images[2] = "images/Verdensmaal-ikon-12.webp";
+images[3] = "images/forside-test-billede.webp";
 
-function slideshow() {
-    document.getElementById('slideshow').src = images[i];
+console.log(images)
 
+// Change Image
+function slideImg() {
+    document.slideshow.src = images[i];
+
+    // Check If Index Is Under Max
     if (i < images.length - 1) {
-        i++
-    }
-
-    else {
+        // Add 1 to Index
+        i++;
+    } else {
+        // Reset Back To O
         i = 0;
     }
 
-    setTimeout("slideshow()",2500);
+    // Run function every x seconds
+    setTimeout("slideImg()", time);
 }
+
+// Run function when page loads
+window.onload = slideImg;
