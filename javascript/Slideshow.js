@@ -4,9 +4,9 @@ let time = 3000;	// Time Between Switch
 
 // Image List
 images[0] = "images/Hydrovertic-system-1.jpg";
-images[1] = "images/Hydrovertic-system-2.jpg";
-images[2] = "images/Hydrovertic-system-3.jpg";
-images[3] = "images/Hydrovertic-system-4.jpg";
+images[1] = "images/Hydrovertic-system-4.jpg";
+images[2] = "images/Hydrovertic-system-7.jpg";
+images[3] = "images/Hydrovertic-system-5.jpg";
 
 console.log(images)
 
