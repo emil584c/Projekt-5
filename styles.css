@@ -136,7 +136,7 @@ header{
 }
 
 .header-logo{
-    height: 48px;
+    height: 45px;
     cursor: pointer;
 }
 
@@ -162,7 +162,11 @@ li{
     width: 100%;
     max-width: 1100px;
     justify-content: space-between;
-    
+}
+
+.header-position{
+    display: flex;
+    align-items: center;
 }
 
 .hamburger{
@@ -1096,6 +1100,13 @@ footer{
     margin: auto;
 }
 
+.statement-image-jacob{
+    border-radius: 50%;
+}
+
+.round-picture{
+    border-radius: 50%;
+}
 
 .review-card{
     height: 255px;
@@ -1390,6 +1401,10 @@ h1{
 }
 
 .statement-image{
+    order: -1;
+}
+
+.statement-image-jacob{
     order: -1;
 }
 
