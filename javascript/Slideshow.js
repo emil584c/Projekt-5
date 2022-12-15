@@ -1,11 +1,6 @@
 let i = 0; 			// Start Point
 let images = [];	// Images Array
 let time = 3000;	// Time Between Switch
-<<<<<<< Updated upstream
-
-
-=======
->>>>>>> Stashed changes
 
 // Image List
 images[0] = "images/Hydrovertic-system-1.jpg";
