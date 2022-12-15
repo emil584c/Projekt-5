@@ -1,14 +1,17 @@
 let i = 0; 			// Start Point
 let images = [];	// Images Array
 let time = 3000;	// Time Between Switch
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
 
 // Image List
-images[0] = "images/vertical-system.webp";
-images[1] = "images/smart-agriculture-iot-with-hand-planting-tree-background.webp";
-images[2] = "images/Verdensmaal-ikon-12.webp";
-images[3] = "images/forside-test-billede.webp";
+images[0] = "images/Hydrovertic-system-1.jpg";
+images[1] = "images/Hydrovertic-system-2.jpg";
+images[2] = "images/Hydrovertic-system-3.jpg";
+images[3] = "images/Hydrovertic-system-4.jpg";
 
 console.log(images)
 
