@@ -637,7 +637,14 @@ li{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-height: 180px;
+    height: 230px;
+}
+
+.flex-news-card-big{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 390px;
 }
 
 .flex-partners{
@@ -1202,15 +1209,17 @@ footer{
     height: 57px;
 }
 
-* {box-sizing: border-box}
-.gallery-1, .gallery-2 {display: none}
-img {vertical-align: middle;}
+.gallery-1, .gallery-2,{
+    display: none
+}
+img {
+    vertical-align: middle;
+}
 
 /* Gallery container start*/
 .gallery-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
 }
 
 /* Next & previous buttons */
@@ -1229,13 +1238,12 @@ img {vertical-align: middle;}
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a grey background color */
 .prev:hover, .next:hover {
   background-color: #f1f1f1;
   color: black;
@@ -1580,6 +1588,10 @@ h1{
     font-size: 1.25rem;
 }
 
+.info-section-flex2{
+    order: -1;
+}
+
 .mobile-who-are-we-picture{
     display: block;
     height: 200px;
@@ -1721,8 +1733,15 @@ h1{
 }
 
 .tech-image-2{
-    display: none;
+    height: 410px;
+    margin: 1rem 0;
 }
+
+.gallery-container{
+    width: 321px;
+}
+
+
 
 /* lines */
 
