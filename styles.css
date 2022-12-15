@@ -301,6 +301,7 @@ li{
 
 .frontpage-video{
     height: 410px;
+    border-radius: 30%;
 }
 
 .video-blob-mobile{
