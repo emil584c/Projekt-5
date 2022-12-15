@@ -15,9 +15,10 @@ let values = Array.prototype.map.call(hydroponiBox, function(el) {
 
 values.forEach(buttonText => {
     buttonText.addEventListener('click', function handleClick(event) {
+      if(infoBox.style.height = "0px"){
         infoBox.style.height ="fit-content";
-        mainText.style.display ="none";
         infoBox.style.padding = "2rem"; 
+      }
     });
 });
 
@@ -64,13 +65,15 @@ function w3RemoveClass(element, name) {
 
 // Add active class to the current control button (highlight it)
 const btnScrollmenu = document.getElementById("scrollmenu");
-let btns = btnScrollmenu.getElementsByClassName("btn");
+let btns = btnScrollmenu.getElementsByClassName("hydroponi-box");
 
-for (let i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
+for (let i = 0; i < hydroponiBox.length; i++) {
+  hydroponiBox[i].addEventListener("click", function() {
+    if(hydroponiBox.style.width === "200px"){
     let current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
+   }
   });
 }
 

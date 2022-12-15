@@ -396,6 +396,7 @@ li{
     justify-content: flex-end;
     font-size: 1.25rem;
     font-weight: 500;
+    opacity: 100%;
     cursor: pointer;
     transition: 0.2s;
     -webkit-animation-duration: 1s;
@@ -778,8 +779,8 @@ footer{
     display: block;
 }
 
-.btn.active{
-    opacity: 60%;
+.hydroponi-box.active{
+    opacity: 20%;
 }
 
 .teknologi-video-placeholder{
