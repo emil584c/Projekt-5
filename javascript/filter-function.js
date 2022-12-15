@@ -22,9 +22,6 @@ values.forEach(buttonText => {
     });
 });
 
-
-
-
 var x, i;
 x = document.getElementsByClassName("filterDiv");
 
@@ -63,6 +60,9 @@ function w3RemoveClass(element, name) {
     element.className = arr1.join(" ");
   }
 
+
+  
+
 // Add active class to the current control button (highlight it)
 const btnScrollmenu = document.getElementById("scrollmenu");
 let btns = btnScrollmenu.getElementsByClassName("hydroponi-box");
@@ -76,21 +76,3 @@ for (let i = 0; i < hydroponiBox.length; i++) {
    }
   });
 }
-
-
-
-
-
-
-// const observer = new IntersectionObserver ((entries) =>{
-//     entries.forEach((entry) => {
-//         console.log(entry)
-//         if (entry.isIntersecting){
-//             entry.target.classList.add('show-animation');
-//         } 
-//     });
-// });
-
-
-// const hiddenElements = document.querySelectorAll('.hidden');
-// hiddenElements.forEach((el) => observer.observe(el));
