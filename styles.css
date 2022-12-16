@@ -1053,6 +1053,19 @@ footer{
     width: 382px;
 }
 
+.review-card-person-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100px;
+    text-align: left;
+}
+
+.review-title-text{
+    font-size: 14px;
+    font-weight: 300;
+}
+
 /* line end */
 
 .paragraph-thick.contact-text{
