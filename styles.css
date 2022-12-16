@@ -1121,14 +1121,6 @@ footer{
     margin: auto;
 }
 
-.statement-image-jacob{
-    border-radius: 50%;
-}
-
-.round-picture{
-    border-radius: 50%;
-}
-
 .review-card{
     height: 255px;
     width: 353px;
@@ -1262,6 +1254,10 @@ img {
   color: black;
 }
 /* Gallery container end*/
+
+.round-picture{
+    border-radius: 50%;
+}
 
 @media screen and (max-width: 900px){
 
