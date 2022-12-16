@@ -1,7 +1,3 @@
-
-
-
-
 let mainText = document.getElementById("info-main-text")
 let infoBox = document.getElementById("info-box")
 
