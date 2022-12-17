@@ -63,12 +63,14 @@ function w3RemoveClass(element, name) {
 const btnScrollmenu = document.getElementById("scrollmenu");
 let btns = btnScrollmenu.getElementsByClassName("hydroponi-box");
 
+
+// Add active class to the current control button (highlight it)
 for (let i = 0; i < hydroponiBox.length; i++) {
   hydroponiBox[i].addEventListener("click", function() {
-    if(hydroponiBox.style.width === "200px"){
+    
     let current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
-   }
+   
   });
 }

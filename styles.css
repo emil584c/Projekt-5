@@ -787,7 +787,8 @@ footer{
 }
 
 .hydroponi-box.active{
-    opacity: 20%;
+    
+    background-color: #509822;
 }
 
 .teknologi-video-placeholder{
