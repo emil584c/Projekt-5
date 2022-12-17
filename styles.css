@@ -1167,8 +1167,12 @@ footer{
     padding: 1rem;
 }
 
+.news-card-big-main{
+    height: 320px;
+}
+
 .news-image{
-    width: 95%;
+    width: 100%;
     margin-bottom: 4px;
 }
 
