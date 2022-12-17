@@ -1,10 +1,12 @@
 
-let infoBox = document.getElementById("info-box")
+const infoBox = document.getElementById("info-box")
 const hydroponiBox = document.querySelectorAll(".hydroponi-box");
 
 let boxes = Array.prototype.map.call(hydroponiBox, function(el) {
     return el;
 });
+
+console.log(boxes);
 
 boxes.forEach(buttonText => {
     buttonText.addEventListener('click', function handleClick(event) {
