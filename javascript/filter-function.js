@@ -1,13 +1,10 @@
-let mainText = document.getElementById("info-main-text")
+
 let infoBox = document.getElementById("info-box")
-
-
 const hydroponiBox = document.querySelectorAll(".hydroponi-box");
 
 let values = Array.prototype.map.call(hydroponiBox, function(el) {
     return el;
 });
-
 
 values.forEach(buttonText => {
     buttonText.addEventListener('click', function handleClick(event) {
@@ -17,6 +14,11 @@ values.forEach(buttonText => {
       }
     });
 });
+
+
+
+
+
 
 var x, i;
 x = document.getElementsByClassName("filterDiv");
@@ -59,18 +61,25 @@ function w3RemoveClass(element, name) {
 
   
 
+
+
+
+  
+
 // Add active class to the current control button (highlight it)
 const btnScrollmenu = document.getElementById("scrollmenu");
 let btns = btnScrollmenu.getElementsByClassName("hydroponi-box");
 
 
 // Add active class to the current control button (highlight it)
-for (let i = 0; i < hydroponiBox.length; i++) {
-  hydroponiBox[i].addEventListener("click", function() {
-    
+for (let i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    if(this.style.display = "flex"){
     let current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
-   
+    }else if (element.classList.contains("active")){
+      btns.style.opacity ="20%";
+    }
   });
 }
