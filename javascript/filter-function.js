@@ -2,11 +2,11 @@
 let infoBox = document.getElementById("info-box")
 const hydroponiBox = document.querySelectorAll(".hydroponi-box");
 
-let values = Array.prototype.map.call(hydroponiBox, function(el) {
+let boxes = Array.prototype.map.call(hydroponiBox, function(el) {
     return el;
 });
 
-values.forEach(buttonText => {
+boxes.forEach(buttonText => {
     buttonText.addEventListener('click', function handleClick(event) {
       if(infoBox.style.height = "0px"){
         infoBox.style.height ="fit-content";
@@ -20,7 +20,7 @@ values.forEach(buttonText => {
 
 
 
-var x, i;
+let x, i;
 x = document.getElementsByClassName("filterDiv");
 
 filterSelection("all")
@@ -28,14 +28,14 @@ function filterSelection(c) {
  
   // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
   for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
   }
 }
 
 // Show filtered elements
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
+function AddClass(element, name) {
+  let i, arr1, arr2;
   arr1 = element.className.split(" ");
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
@@ -46,8 +46,8 @@ function w3AddClass(element, name) {
 }
 
 // Hide elements that are not selected
-function w3RemoveClass(element, name) {
-    var i, arr1, arr2;
+function RemoveClass(element, name) {
+    let i, arr1, arr2;
     arr1 = element.className.split(" ");
     arr2 = name.split(" ");
     for (i = 0; i < arr2.length; i++) {
