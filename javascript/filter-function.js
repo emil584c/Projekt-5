@@ -78,8 +78,6 @@ for (let i = 0; i < btns.length; i++) {
     let current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
-    }else if (element.classList.contains("active")){
-      btns.style.opacity ="20%";
     }
   });
 }
