@@ -410,10 +410,6 @@ li{
     -webkit-animation-iteration-count: infinite;
 }
 
-.hydroponi-illustration{
-    height: 75px;
-}
-
 
 @keyframes swing {
     15% {
@@ -451,6 +447,7 @@ li{
 
 .hydroponi-icon{
     margin-bottom: 16%;
+    height: 75px;
 }
 
 .hydroponi-text{
