@@ -1171,6 +1171,10 @@ footer{
     height: 320px;
 }
 
+.contact-icon{
+    height: 30px;
+}
+
 .news-image{
     width: 100%;
     margin-bottom: 4px;
