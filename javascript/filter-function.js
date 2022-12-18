@@ -6,7 +6,6 @@ let boxes = Array.prototype.map.call(hydroponiBox, function(el) {
     return el;
 });
 
-console.log(boxes);
 
 boxes.forEach(buttonText => {
     buttonText.addEventListener('click', function handleClick(event) {
@@ -72,6 +71,7 @@ function RemoveClass(element, name) {
 const btnHydroponiContent = document.getElementById("hydroponi-content");
 let btns = btnHydroponiContent.getElementsByClassName("hydroponi-box");
 
+console.log(btns)
 
 // Add active class to the current control button (highlight it)
 for (let i = 0; i < btns.length; i++) {
