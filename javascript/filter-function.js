@@ -69,8 +69,8 @@ function RemoveClass(element, name) {
   
 
 // Add active class to the current control button (highlight it)
-const btnScrollmenu = document.getElementById("scrollmenu");
-let btns = btnScrollmenu.getElementsByClassName("hydroponi-box");
+const btnHydroponiContent = document.getElementById("hydroponi-content");
+let btns = btnHydroponiContent.getElementsByClassName("hydroponi-box");
 
 
 // Add active class to the current control button (highlight it)
