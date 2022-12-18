@@ -694,6 +694,10 @@ li{
     gap: 0.5rem;
 }
 
+.footer-list-item{
+    cursor: pointer;
+}
+
 .footer-row{
     display: flex;
     justify-content: space-between;
