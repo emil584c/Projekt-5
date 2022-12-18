@@ -10,7 +10,7 @@ images[3] = "images/Hydrovertic-system-5.jpg";
 console.log(images)
 
 function slideImg() {
-    document.slideshow.src = images[i];
+    document.getElementById("slideshow").src = images[i];
 
     if (i < images.length - 1) {
         i++;
